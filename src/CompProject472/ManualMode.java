@@ -48,7 +48,8 @@ public class ManualMode {
 				System.out.println("This move is illegal please enter another one");
 			}
 		}
-
+		
+		displayPuzzle(puzzle);
 		System.out.println("Congratulation on solving the puzzle!!!");
 
 	}
