@@ -4,18 +4,31 @@ import java.util.ArrayList;
 
 public class PuzzleState {
 
-	//Add parent
-	//add name
-	
-	public PuzzleState(char[] puzzle, int heuristicValue)
+	public PuzzleState(String name, char[] puzzle, int heuristicValue, PuzzleState parentState)
 	{
+		this.name = name;
 		this.puzzle = puzzle;
 		this.heuristicValue = heuristicValue;
+		this.parentState = parentState;
 	}
 	
-	char[] puzzle;
+	private String name;
 	
-	int heuristicValue;
+	private char[] puzzle;
+	
+	private int heuristicValue;
+	
+	private PuzzleState parentState;
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
 	
 	public char[] getPuzzle()
 	{
@@ -35,5 +48,15 @@ public class PuzzleState {
 	public void setHeuristicValue(int value)
 	{
 		this.heuristicValue = value;
+	}
+	
+	public PuzzleState getParentState()
+	{
+		return parentState;
+	}
+	
+	public void setParentState(PuzzleState state)
+	{
+		parentState = state;
 	}
 }
