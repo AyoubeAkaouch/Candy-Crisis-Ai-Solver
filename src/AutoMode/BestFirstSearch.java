@@ -40,25 +40,24 @@ public class BestFirstSearch {
 
 	private PuzzleState Search(PuzzleState state, Queue<PuzzleState> openState, Queue<PuzzleState> closedState,
 			int puzzleStateNumber) {
-		if (state.getHeuristicValue() == 0) {
-			return state;
-		}
+		
+		while (state.getHeuristicValue() != 0){
+			int blankPosition = findBlankSpace(state.getPuzzle());
+			ArrayList<String> validMoves = VerifyLegalMove(blankPosition);
 
-		int blankPosition = findBlankSpace(state.getPuzzle());
-		ArrayList<String> validMoves = VerifyLegalMove(blankPosition);
-
-		for (String validMove : validMoves) {
-			puzzleStateNumber++;
-			PuzzleState newState = CreateNewState(state, validMove, blankPosition, puzzleStateNumber);
-			if (VerifyStateIsNotInClosedQueue(newState, closedState)) {
-				openState.add(newState);
+			for (String validMove : validMoves) {
+				puzzleStateNumber++;
+				PuzzleState newState = CreateNewState(state, validMove, blankPosition, puzzleStateNumber);
+				if (VerifyStateIsNotInClosedQueue(newState, closedState)) {
+					openState.add(newState);
+				}
 			}
+
+			state = openState.remove();
+			closedState.add(state);
 		}
-
-		PuzzleState nextState = openState.remove();
-		closedState.add(nextState);
-
-		return Search(nextState, openState, closedState, puzzleStateNumber);
+			
+		return state;
 	}
 
 	private int CalculateHeuristic(char[] puzzles) {
