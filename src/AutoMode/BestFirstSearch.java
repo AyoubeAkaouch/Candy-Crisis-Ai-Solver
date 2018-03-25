@@ -25,6 +25,7 @@ public class BestFirstSearch {
 			HeuristicComparator comparator = new HeuristicComparator();
 			PuzzleState state;
 
+			System.out.println("Solving puzzle");
 			Queue<PuzzleState> openState = new PriorityQueue<PuzzleState>(comparator);
 			Queue<PuzzleState> closedState = new PriorityQueue<PuzzleState>(comparator);
 
@@ -40,6 +41,7 @@ public class BestFirstSearch {
 
 	private PuzzleState Search(PuzzleState state, Queue<PuzzleState> openState, Queue<PuzzleState> closedState,
 			int puzzleStateNumber) {
+		
 		
 		while (state.getHeuristicValue() != 0){
 			int blankPosition = findBlankSpace(state.getPuzzle());
@@ -57,6 +59,7 @@ public class BestFirstSearch {
 			closedState.add(state);
 		}
 			
+		System.out.println(closedState.size());	
 		return state;
 	}
 

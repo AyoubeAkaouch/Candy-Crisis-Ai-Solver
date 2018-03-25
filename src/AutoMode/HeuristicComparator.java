@@ -6,7 +6,7 @@ public class HeuristicComparator implements Comparator<PuzzleState>{
 
 	@Override
 	public int compare(PuzzleState state1, PuzzleState state2) {
-		return state1.getHeuristicValue() - state2.getHeuristicValue();
+		return state1.costHeursiticTotal() - state2.costHeursiticTotal();
 	}
 
 }

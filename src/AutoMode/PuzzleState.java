@@ -13,6 +13,7 @@ public class PuzzleState {
 		this.parentState = parentState;
 		this.move=move;
 		this.time = System.currentTimeMillis();
+		setCost();
 	}
 
 	private String name;
@@ -26,6 +27,8 @@ public class PuzzleState {
 	private String move;
 
 	private long time;
+	
+	private int cost;
 
 	public PuzzleState getParent()
 	{
@@ -60,8 +63,21 @@ public class PuzzleState {
 		allStates.add(this);
 		return parentState.getPreviousStates(allStates);
 	}
+	
+	public void setCost(){
+		if(this.parentState==null)
+			this.cost=0;
+		else
+			this.cost= parentState.costHeursiticTotal();
+	}
 
-
+	public int costHeursiticTotal(){
+		return cost+this.heuristicValue;
+	}
+	public int getCost()
+	{
+		return cost;
+	}
 	public String getName()
 	{
 		return name;
