@@ -75,7 +75,7 @@ public class BestFirstSearch {
 						x=(j%5)-(i%5);
 						bottomRowIndex=i+10;
 						manhattanDistanceTemp=Math.abs((j%5)-(bottomRowIndex%5))+Math.abs(((j-x)-bottomRowIndex)/5);
-						
+						manhattanDistanceTemp+=manhattanDistanceTemp*0.3;
 						if(manhattanDistanceTemp<manhattanDistancePoint)
 						{
 							manhattanDistancePoint=manhattanDistanceTemp;
