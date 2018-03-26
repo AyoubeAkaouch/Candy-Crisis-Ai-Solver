@@ -42,7 +42,6 @@ public class BestFirstSearch {
 	private PuzzleState Search(PuzzleState state, Queue<PuzzleState> openState, Queue<PuzzleState> closedState,
 			int puzzleStateNumber) {
 		
-		
 		while (state.getHeuristicValue() != 0){
 			int blankPosition = findBlankSpace(state.getPuzzle());
 			ArrayList<String> validMoves = VerifyLegalMove(blankPosition);
@@ -64,14 +63,37 @@ public class BestFirstSearch {
 	}
 
 	private int CalculateHeuristic(char[] puzzles) {
-		int heuristicValue = 0;
-		for (int i = 0; i < 5; i++) {
-			if (puzzles[i] != puzzles[10 + i]) {
-				heuristicValue++;
+		int heuristic=0, manhattanDistanceTemp = 0;
+		int x,bottomRowIndex;
+		for(int i= 0;i<5;i++)
+		{	
+			int manhattanDistancePoint =99999999, indexToRemove=i;
+			for(int j=i+1;j<puzzles.length;j++){
+				if(puzzles[j]==puzzles[i]){
+					x=(j%5)-(i%5);
+					bottomRowIndex=i+10;
+					manhattanDistanceTemp=Math.abs((j%5)-(bottomRowIndex%5))+Math.abs(((j-x)-bottomRowIndex)/5);
+					if(manhattanDistanceTemp<manhattanDistancePoint)
+					{
+						manhattanDistancePoint=manhattanDistanceTemp;
+						indexToRemove=j;
+					}
+					//System.out.println("j: "+j+" i: "+i+"  ManDist: "+manhattanDistanceTemp);
+				}
 			}
+			if(manhattanDistancePoint==99999999){
+				heuristic+=15;
+				puzzles[indexToRemove]='x';
+			}
+			else
+			{
+				heuristic+=manhattanDistancePoint;
+						puzzles[indexToRemove]='x';
+			}
+			
 		}
-
-		return heuristicValue;
+		
+		return heuristic;
 	}
 
 	private ArrayList<String> VerifyLegalMove(int blank) {
