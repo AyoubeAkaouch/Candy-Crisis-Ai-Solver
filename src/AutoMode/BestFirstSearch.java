@@ -27,28 +27,28 @@ public class BestFirstSearch {
 
 			System.out.println("Solving puzzle");
 			Queue<PuzzleState> openState = new PriorityQueue<PuzzleState>(comparator);
-			Queue<PuzzleState> closedState = new PriorityQueue<PuzzleState>(comparator);
+			List<PuzzleState> closedState = new ArrayList<PuzzleState>();
 
-			PuzzleState root = new PuzzleState("Rootstate", puzzle, heuristicValue, null, null);
-
+			PuzzleState root = new PuzzleState(puzzle, heuristicValue, null, null);
+			root.setTime(System.currentTimeMillis());
 			closedState.add(root);
 
-			state = Search(root, openState, closedState, 0);
+			state = Search(root, openState, closedState);
+			state.setTime(System.currentTimeMillis());
 			listSolvedStates.add(state);
+			
 		}
 		return listSolvedStates;
 	}
 
-	private PuzzleState Search(PuzzleState state, Queue<PuzzleState> openState, Queue<PuzzleState> closedState,
-			int puzzleStateNumber) {
-		
+	private PuzzleState Search(PuzzleState state, Queue<PuzzleState> openState, List<PuzzleState> closedState) {
+
 		while (state.getHeuristicValue() != 0){
 			int blankPosition = findBlankSpace(state.getPuzzle());
 			ArrayList<String> validMoves = VerifyLegalMove(blankPosition);
 
 			for (String validMove : validMoves) {
-				puzzleStateNumber++;
-				PuzzleState newState = CreateNewState(state, validMove, blankPosition, puzzleStateNumber);
+				PuzzleState newState = CreateNewState(state, validMove, blankPosition);
 				if (VerifyStateIsNotInClosedQueue(newState, closedState)) {
 					openState.add(newState);
 				}
@@ -57,7 +57,7 @@ public class BestFirstSearch {
 			state = openState.remove();
 			closedState.add(state);
 		}
-			
+
 		System.out.println(closedState.size());	
 		return state;
 	}
@@ -68,32 +68,27 @@ public class BestFirstSearch {
 		int x,bottomRowIndex;
 		for(int i= 0;i<5;i++)
 		{	
-			int manhattanDistancePoint =99999999, indexToRemove=i;
-			for(int j=i+1;j<puzzles.length;j++){
-				if(puzzles[j]==puzzles[i]){
-					x=(j%5)-(i%5);
-					bottomRowIndex=i+10;
-					manhattanDistanceTemp=Math.abs((j%5)-(bottomRowIndex%5))+Math.abs(((j-x)-bottomRowIndex)/5);
-					if(manhattanDistanceTemp<manhattanDistancePoint)
-					{
-						manhattanDistancePoint=manhattanDistanceTemp;
-						indexToRemove=j;
+			int manhattanDistancePoint=10, indexToRemove=i;
+			if(puzzles[i]!='x'){
+				for(int j=i+1;j<puzzles.length;j++){
+					if(puzzles[j]==puzzles[i]){
+						x=(j%5)-(i%5);
+						bottomRowIndex=i+10;
+						manhattanDistanceTemp=Math.abs((j%5)-(bottomRowIndex%5))+Math.abs(((j-x)-bottomRowIndex)/5);
+						
+						if(manhattanDistanceTemp<manhattanDistancePoint)
+						{
+							manhattanDistancePoint=manhattanDistanceTemp;
+							indexToRemove=j;
+						}
+						//System.out.println("j: "+j+" i: "+i+"  ManDist: "+manhattanDistanceTemp);
 					}
-					//System.out.println("j: "+j+" i: "+i+"  ManDist: "+manhattanDistanceTemp);
 				}
 			}
-			if(manhattanDistancePoint==99999999){
-				heuristic+=15;
-				puzzles[indexToRemove]='x';
-			}
-			else
-			{
-				heuristic+=manhattanDistancePoint;
-						puzzles[indexToRemove]='x';
-			}
-			
+			heuristic+=manhattanDistancePoint;
+			puzzles[indexToRemove]='x';
 		}
-		
+
 		return heuristic;
 	}
 
@@ -112,7 +107,7 @@ public class BestFirstSearch {
 		return legalMoves;
 	}
 
-	private PuzzleState CreateNewState(PuzzleState state, String move, int blankPosition, int puzzleStateNumber) {
+	private PuzzleState CreateNewState(PuzzleState state, String move, int blankPosition) {
 		char[] newPuzzle = Arrays.copyOf(state.getPuzzle(), state.getPuzzle().length);
 		char storeChar;
 
@@ -139,15 +134,14 @@ public class BestFirstSearch {
 			break;
 		}
 
-		return new PuzzleState("state" + puzzleStateNumber, newPuzzle, CalculateHeuristic(newPuzzle), state, move);
+		return new PuzzleState(newPuzzle, CalculateHeuristic(newPuzzle), state, move);
 	}
 
-	private boolean VerifyStateIsNotInClosedQueue(PuzzleState state, Queue<PuzzleState> closedState) {
+	private boolean VerifyStateIsNotInClosedQueue(PuzzleState state, List<PuzzleState> closedState) {
 		char[] statePuzzle = state.getPuzzle();
 
 		for (PuzzleState closedPuzzleState : closedState) {
 			char[] closedPuzzle = closedPuzzleState.getPuzzle();
-
 			if (state.getHeuristicValue() == closedPuzzleState.getHeuristicValue()) {
 				for (int i = 0; i < statePuzzle.length; i++) {
 					if (statePuzzle[i] != closedPuzzle[i]) {
@@ -160,7 +154,7 @@ public class BestFirstSearch {
 				}
 			}
 		}
-
+		
 		return true;
 	}
 
