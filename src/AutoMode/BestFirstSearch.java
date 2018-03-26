@@ -62,7 +62,8 @@ public class BestFirstSearch {
 		return state;
 	}
 
-	private int CalculateHeuristic(char[] puzzles) {
+	private int CalculateHeuristic(char[] puzzle) {
+		char[] puzzles=puzzle.clone();
 		int heuristic=0, manhattanDistanceTemp = 0;
 		int x,bottomRowIndex;
 		for(int i= 0;i<5;i++)
