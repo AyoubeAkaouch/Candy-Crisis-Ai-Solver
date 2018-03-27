@@ -28,10 +28,11 @@ public class FileOutput {
 			
 			fw = new FileWriter("output.txt");
 			bw = new BufferedWriter(fw);
+			int totalTime=0;
 			int count=1;
 			for(PuzzleState puzzle: states){
 				long endTime;
-				List<String> moves = new ArrayList<String>();
+				List<Integer> moves = new ArrayList<Integer>();
 				List<PuzzleState> solutionPath = new ArrayList<PuzzleState>();
 			
 				//getting solution path for first puzzle
@@ -42,7 +43,7 @@ public class FileOutput {
 				
 				//Getting the time that it was solved
 				endTime=getSolvingTime(solutionPath);
-				
+				totalTime+=endTime;
 				//Getting set of moves to get solution path	
 				moves = puzzle.getPreviousMoves(moves);
 				
@@ -50,7 +51,7 @@ public class FileOutput {
 				totalMoves+= moves.size();
 				bw.write("\nMoves made to solve: ");
 				for	(int i = moves.size()-1;i>=0;i--){
-					String currentMove=moves.get(i);
+					int currentMove=moves.get(i);
 					bw.write(currentMove+"  ");
 				}
 				bw.newLine();
@@ -58,7 +59,8 @@ public class FileOutput {
 				
 				
 			}
-			bw.write("All the puzzles were solved in "+ totalMoves+" moves!");
+			bw.write("All the puzzles were solved in "+ totalMoves+" moves!\n");
+			bw.write("All the puzzles were solved in "+ totalTime+" ms!");
 
 		} catch (IOException e) {
 

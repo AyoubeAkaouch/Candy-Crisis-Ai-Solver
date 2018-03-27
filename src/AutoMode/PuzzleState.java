@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PuzzleState {
 
-	public PuzzleState(char[] puzzle, int heuristicValue, PuzzleState parentState, String move)
+	public PuzzleState(char[] puzzle, int heuristicValue, PuzzleState parentState, int move)
 	{
 		this.puzzle = puzzle;
 		this.heuristicValue = heuristicValue;
@@ -21,7 +21,7 @@ public class PuzzleState {
 
 	private PuzzleState parentState;
 
-	private String move;
+	private int move;
 
 	private long time;
 	
@@ -36,15 +36,15 @@ public class PuzzleState {
 		return time;
 	}
 
-	public String getMove()
+	public int getMove()
 	{
 		return move;
 	}
 
 	//Will return list with last move at position 0, will have to iterate through 
 	//list in decreasing order to get it from first move to last.
-	public List<String> getPreviousMoves(List<String> allMoves){
-		if(this.getMove()==null)
+	public List<Integer> getPreviousMoves(List<Integer> allMoves){
+		if(this.getParent()==null)
 			return allMoves;
 		allMoves.add(this.getMove());
 		return parentState.getPreviousMoves(allMoves);

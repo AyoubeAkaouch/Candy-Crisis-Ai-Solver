@@ -29,7 +29,7 @@ public class AAlgorithmSearch {
 			Queue<PuzzleState> openState = new PriorityQueue<PuzzleState>(comparator);
 			List<PuzzleState> closedState = new ArrayList<PuzzleState>();
 
-			PuzzleState root = new PuzzleState(puzzle, heuristicValue, null, null);
+			PuzzleState root = new PuzzleState(puzzle, heuristicValue, null,1000);
 			root.setTime(System.currentTimeMillis());
 			closedState.add(root);
 
@@ -40,7 +40,7 @@ public class AAlgorithmSearch {
 		}
 		return listSolvedStates;
 	}
-
+	
 	private PuzzleState Search(PuzzleState state, Queue<PuzzleState> openState, List<PuzzleState> closedState) {
 
 		while (state.getHeuristicValue() != 0){
@@ -59,8 +59,10 @@ public class AAlgorithmSearch {
 		}
 
 		System.out.println(closedState.size());	
+		System.out.println(openState.size());	
 		return state;
 	}
+
 
 	private int CalculateHeuristic(char[] puzzle) {
 		char[] puzzle1=puzzle.clone();
@@ -138,31 +140,31 @@ public class AAlgorithmSearch {
 	private PuzzleState CreateNewState(PuzzleState state, String move, int blankPosition) {
 		char[] newPuzzle = Arrays.copyOf(state.getPuzzle(), state.getPuzzle().length);
 		char storeChar;
-
+		int blank=0;
 		switch (move) {
 		case "up":
 			storeChar = newPuzzle[blankPosition - 5];
-			newPuzzle[blankPosition - 5] = 'e';
+			newPuzzle[blank= blankPosition - 5] = 'e';
 			newPuzzle[blankPosition] = storeChar;
 			break;
 		case "left":
 			storeChar = newPuzzle[blankPosition - 1];
-			newPuzzle[blankPosition - 1] = 'e';
+			newPuzzle[blank =blankPosition - 1] = 'e';
 			newPuzzle[blankPosition] = storeChar;
 			break;
 		case "down":
 			storeChar = newPuzzle[blankPosition + 5];
-			newPuzzle[blankPosition + 5] = 'e';
+			newPuzzle[blank = blankPosition + 5] = 'e';
 			newPuzzle[blankPosition] = storeChar;
 			break;
 		case "right":
 			storeChar = newPuzzle[blankPosition + 1];
-			newPuzzle[blankPosition + 1] = 'e';
+			newPuzzle[blank = blankPosition + 1] = 'e';
 			newPuzzle[blankPosition] = storeChar;
 			break;
 		}
 
-		return new PuzzleState(newPuzzle, CalculateHeuristic(newPuzzle), state, move);
+		return new PuzzleState(newPuzzle, CalculateHeuristic(newPuzzle), state, blank);
 	}
 
 	private boolean VerifyStateIsNotInClosedQueue(PuzzleState state, List<PuzzleState> closedState) {
@@ -185,7 +187,26 @@ public class AAlgorithmSearch {
 		
 		return true;
 	}
+	private boolean VerifyStateIsNotInOpenQueue(PuzzleState state, Queue<PuzzleState> openState) {
+		char[] statePuzzle = state.getPuzzle();
 
+		for (PuzzleState openPuzzleState : openState) {
+			char[] closedPuzzle = openPuzzleState.getPuzzle();
+			if (state.getHeuristicValue() == openPuzzleState.getHeuristicValue()) {
+				for (int i = 0; i < statePuzzle.length; i++) {
+					if (statePuzzle[i] != closedPuzzle[i]) {
+						break;
+					}
+
+					if (i == statePuzzle.length - 1) {
+						return false;
+					}
+				}
+			}
+		}
+		
+		return true;
+	}
 	private int findBlankSpace(char[] puzzle) {
 		int blank = 0;
 		for (int i = 0; i < 15; i++) {
