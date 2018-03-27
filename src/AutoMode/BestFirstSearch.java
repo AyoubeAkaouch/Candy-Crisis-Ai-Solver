@@ -63,33 +63,61 @@ public class BestFirstSearch {
 	}
 
 	private int CalculateHeuristic(char[] puzzle) {
-		char[] puzzles=puzzle.clone();
-		int heuristic=0, manhattanDistanceTemp = 0;
-		int x,bottomRowIndex;
+		char[] puzzle1=puzzle.clone();
+		char[] puzzle2=puzzle.clone();
+		int heuristic1=0,heuristic2=0, manhattanDistanceTemp = 0;
+		int x,bottomRowIndex,topRowIndex;
 		for(int i= 0;i<5;i++)
 		{	
 			int manhattanDistancePoint=10, indexToRemove=i;
-			if(puzzles[i]!='x'){
-				for(int j=i+1;j<puzzles.length;j++){
-					if(puzzles[j]==puzzles[i]){
+			if(puzzle1[i]!='x'){
+				for(int j=i+1;j<puzzle1.length;j++){
+					if(puzzle1[j]==puzzle1[i]){
 						x=(j%5)-(i%5);
 						bottomRowIndex=i+10;
 						manhattanDistanceTemp=Math.abs((j%5)-(bottomRowIndex%5))+Math.abs(((j-x)-bottomRowIndex)/5);
-						manhattanDistanceTemp+=manhattanDistanceTemp*0.3;
+						manhattanDistanceTemp+=manhattanDistanceTemp*0.3;//Added weight reduces search space grreatly but from testing gives same solution path than without it.
 						if(manhattanDistanceTemp<manhattanDistancePoint)
 						{
 							manhattanDistancePoint=manhattanDistanceTemp;
 							indexToRemove=j;
 						}
+						
 						//System.out.println("j: "+j+" i: "+i+"  ManDist: "+manhattanDistanceTemp);
 					}
 				}
 			}
-			heuristic+=manhattanDistancePoint;
-			puzzles[indexToRemove]='x';
+			heuristic1+=manhattanDistancePoint;
+			puzzle1[indexToRemove]='x';
+		}
+		for(int i=14;i>9;i--)
+		{	
+			int manhattanDistancePoint=10, indexToRemove=i;
+			if(puzzle2[i]!='x'){
+				for(int j=i-1;j>0;j--){
+					if(puzzle2[j]==puzzle2[i]){
+						x=(j%5)-(i%5);
+						topRowIndex=i-10;
+						manhattanDistanceTemp=Math.abs((j%5)-(topRowIndex%5))+Math.abs(((j-x)-topRowIndex)/5);
+						manhattanDistanceTemp+=manhattanDistanceTemp*0.3;//Added weight reduces search space grreatly but from testing gives same solution path than without it.
+						if(manhattanDistanceTemp<manhattanDistancePoint)
+						{
+							manhattanDistancePoint=manhattanDistanceTemp;
+							indexToRemove=j;
+						}
+						
+						//System.out.println("j: "+j+" i: "+i+"  ManDist: "+manhattanDistanceTemp);
+					}
+				}
+			}
+			heuristic2+=manhattanDistancePoint;
+			puzzle2[indexToRemove]='x';
 		}
 
-		return heuristic;
+		if(heuristic1<heuristic2)
+			return heuristic1;
+		else
+			return heuristic2;
 	}
 
 	private ArrayList<String> VerifyLegalMove(int blank) {
