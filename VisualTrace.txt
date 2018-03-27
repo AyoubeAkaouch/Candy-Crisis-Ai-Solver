@@ -1,0 +1,4396 @@
+Visual trace for puzzle #1
+
+r |b |y |w |g |
+w |g |p |p |r |
+b |r |  |r |y |
+
+r |b |y |w |g |
+w |g |  |p |r |
+b |r |p |r |y |
+
+r |b |y |w |g |
+w |g |p |  |r |
+b |r |p |r |y |
+
+r |b |y |  |g |
+w |g |p |w |r |
+b |r |p |r |y |
+
+r |b |  |y |g |
+w |g |p |w |r |
+b |r |p |r |y |
+
+r |b |p |y |g |
+w |g |  |w |r |
+b |r |p |r |y |
+
+r |b |p |y |g |
+w |g |w |  |r |
+b |r |p |r |y |
+
+r |b |p |y |g |
+w |g |w |r |  |
+b |r |p |r |y |
+
+r |b |p |y |  |
+w |g |w |r |g |
+b |r |p |r |y |
+
+r |b |p |  |y |
+w |g |w |r |g |
+b |r |p |r |y |
+
+r |b |p |r |y |
+w |g |w |  |g |
+b |r |p |r |y |
+
+r |b |p |r |y |
+w |g |  |w |g |
+b |r |p |r |y |
+
+r |b |p |r |y |
+w |  |g |w |g |
+b |r |p |r |y |
+
+r |b |p |r |y |
+w |r |g |w |g |
+b |  |p |r |y |
+
+r |b |p |r |y |
+w |r |g |w |g |
+  |b |p |r |y |
+
+r |b |p |r |y |
+  |r |g |w |g |
+w |b |p |r |y |
+
+r |b |p |r |y |
+r |  |g |w |g |
+w |b |p |r |y |
+
+r |b |p |r |y |
+r |g |  |w |g |
+w |b |p |r |y |
+
+r |b |p |r |y |
+r |g |p |w |g |
+w |b |  |r |y |
+
+r |b |p |r |y |
+r |g |p |w |g |
+w |  |b |r |y |
+
+r |b |p |r |y |
+r |g |p |w |g |
+  |w |b |r |y |
+
+r |b |p |r |y |
+  |g |p |w |g |
+r |w |b |r |y |
+
+r |b |p |r |y |
+g |  |p |w |g |
+r |w |b |r |y |
+
+r |b |p |r |y |
+g |w |p |w |g |
+r |  |b |r |y |
+
+r |b |p |r |y |
+g |w |p |w |g |
+r |b |  |r |y |
+
+r |b |p |r |y |
+g |w |  |w |g |
+r |b |p |r |y |
+
+Visual trace for puzzle #2
+
+w |b |p |r |  |
+r |g |r |r |p |
+g |y |b |w |y |
+
+w |b |p |  |r |
+r |g |r |r |p |
+g |y |b |w |y |
+
+w |b |  |p |r |
+r |g |r |r |p |
+g |y |b |w |y |
+
+w |  |b |p |r |
+r |g |r |r |p |
+g |y |b |w |y |
+
+w |g |b |p |r |
+r |  |r |r |p |
+g |y |b |w |y |
+
+w |g |b |p |r |
+r |y |r |r |p |
+g |  |b |w |y |
+
+w |g |b |p |r |
+r |y |r |r |p |
+g |b |  |w |y |
+
+w |g |b |p |r |
+r |y |r |r |p |
+g |b |w |  |y |
+
+w |g |b |p |r |
+r |y |r |  |p |
+g |b |w |r |y |
+
+w |g |b |p |r |
+r |y |r |p |  |
+g |b |w |r |y |
+
+w |g |b |p |r |
+r |y |r |p |y |
+g |b |w |r |  |
+
+w |g |b |p |r |
+r |y |r |p |y |
+g |b |w |  |r |
+
+w |g |b |p |r |
+r |y |r |  |y |
+g |b |w |p |r |
+
+w |g |b |p |r |
+r |y |  |r |y |
+g |b |w |p |r |
+
+w |g |b |p |r |
+r |y |w |r |y |
+g |b |  |p |r |
+
+w |g |b |p |r |
+r |y |w |r |y |
+g |  |b |p |r |
+
+w |g |b |p |r |
+r |y |w |r |y |
+  |g |b |p |r |
+
+w |g |b |p |r |
+  |y |w |r |y |
+r |g |b |p |r |
+
+w |g |b |p |r |
+y |  |w |r |y |
+r |g |b |p |r |
+
+w |g |b |p |r |
+y |w |  |r |y |
+r |g |b |p |r |
+
+w |g |b |p |r |
+y |w |b |r |y |
+r |g |  |p |r |
+
+w |g |b |p |r |
+y |w |b |r |y |
+r |  |g |p |r |
+
+w |g |b |p |r |
+y |  |b |r |y |
+r |w |g |p |r |
+
+w |g |b |p |r |
+  |y |b |r |y |
+r |w |g |p |r |
+
+w |g |b |p |r |
+r |y |b |r |y |
+  |w |g |p |r |
+
+w |g |b |p |r |
+r |y |b |r |y |
+w |  |g |p |r |
+
+w |g |b |p |r |
+r |y |b |r |y |
+w |g |  |p |r |
+
+w |g |b |p |r |
+r |y |  |r |y |
+w |g |b |p |r |
+
+Visual trace for puzzle #3
+
+r |r |p |  |g |
+g |y |y |b |r |
+r |w |b |w |p |
+
+r |r |p |b |g |
+g |y |y |  |r |
+r |w |b |w |p |
+
+r |r |p |b |g |
+g |y |y |w |r |
+r |w |b |  |p |
+
+r |r |p |b |g |
+g |y |y |w |r |
+r |w |  |b |p |
+
+r |r |p |b |g |
+g |y |y |w |r |
+r |  |w |b |p |
+
+r |r |p |b |g |
+g |  |y |w |r |
+r |y |w |b |p |
+
+r |r |p |b |g |
+g |y |  |w |r |
+r |y |w |b |p |
+
+r |r |p |b |g |
+g |y |w |  |r |
+r |y |w |b |p |
+
+r |r |p |  |g |
+g |y |w |b |r |
+r |y |w |b |p |
+
+r |r |  |p |g |
+g |y |w |b |r |
+r |y |w |b |p |
+
+r |r |w |p |g |
+g |y |  |b |r |
+r |y |w |b |p |
+
+r |r |w |p |g |
+g |y |b |  |r |
+r |y |w |b |p |
+
+r |r |w |p |g |
+g |y |b |r |  |
+r |y |w |b |p |
+
+r |r |w |p |  |
+g |y |b |r |g |
+r |y |w |b |p |
+
+r |r |w |  |p |
+g |y |b |r |g |
+r |y |w |b |p |
+
+r |r |  |w |p |
+g |y |b |r |g |
+r |y |w |b |p |
+
+r |  |r |w |p |
+g |y |b |r |g |
+r |y |w |b |p |
+
+r |y |r |w |p |
+g |  |b |r |g |
+r |y |w |b |p |
+
+r |y |r |w |p |
+g |b |  |r |g |
+r |y |w |b |p |
+
+r |y |r |w |p |
+g |b |r |  |g |
+r |y |w |b |p |
+
+r |y |r |w |p |
+g |b |r |b |g |
+r |y |w |  |p |
+
+r |y |r |w |p |
+g |b |r |b |g |
+r |y |  |w |p |
+
+r |y |r |w |p |
+g |b |  |b |g |
+r |y |r |w |p |
+
+Visual trace for puzzle #4
+
+g |b |p |  |b |
+r |w |y |w |r |
+r |r |p |y |g |
+
+g |b |p |w |b |
+r |w |y |  |r |
+r |r |p |y |g |
+
+g |b |p |w |b |
+r |w |  |y |r |
+r |r |p |y |g |
+
+g |b |p |w |b |
+r |  |w |y |r |
+r |r |p |y |g |
+
+g |  |p |w |b |
+r |b |w |y |r |
+r |r |p |y |g |
+
+  |g |p |w |b |
+r |b |w |y |r |
+r |r |p |y |g |
+
+r |g |p |w |b |
+  |b |w |y |r |
+r |r |p |y |g |
+
+r |g |p |w |b |
+r |b |w |y |r |
+  |r |p |y |g |
+
+r |g |p |w |b |
+r |b |w |y |r |
+r |  |p |y |g |
+
+r |g |p |w |b |
+r |b |w |y |r |
+r |p |  |y |g |
+
+r |g |p |w |b |
+r |b |  |y |r |
+r |p |w |y |g |
+
+r |g |p |w |b |
+r |  |b |y |r |
+r |p |w |y |g |
+
+r |  |p |w |b |
+r |g |b |y |r |
+r |p |w |y |g |
+
+r |p |  |w |b |
+r |g |b |y |r |
+r |p |w |y |g |
+
+r |p |w |  |b |
+r |g |b |y |r |
+r |p |w |y |g |
+
+r |p |w |y |b |
+r |g |b |  |r |
+r |p |w |y |g |
+
+r |p |w |y |b |
+r |g |  |b |r |
+r |p |w |y |g |
+
+r |p |w |y |b |
+r |g |w |b |r |
+r |p |  |y |g |
+
+r |p |w |y |b |
+r |g |w |b |r |
+r |p |y |  |g |
+
+r |p |w |y |b |
+r |g |w |  |r |
+r |p |y |b |g |
+
+r |p |w |y |b |
+r |g |w |r |  |
+r |p |y |b |g |
+
+r |p |w |y |b |
+r |g |w |r |g |
+r |p |y |b |  |
+
+r |p |w |y |b |
+r |g |w |r |g |
+r |p |y |  |b |
+
+r |p |w |y |b |
+r |g |w |r |g |
+r |p |  |y |b |
+
+r |p |w |y |b |
+r |g |  |r |g |
+r |p |w |y |b |
+
+Visual trace for puzzle #5
+
+g |w |  |p |p |
+r |y |r |r |r |
+w |b |g |b |y |
+
+g |w |r |p |p |
+r |y |  |r |r |
+w |b |g |b |y |
+
+g |w |r |p |p |
+r |y |r |  |r |
+w |b |g |b |y |
+
+g |w |r |p |p |
+r |y |r |r |  |
+w |b |g |b |y |
+
+g |w |r |p |  |
+r |y |r |r |p |
+w |b |g |b |y |
+
+g |w |r |  |p |
+r |y |r |r |p |
+w |b |g |b |y |
+
+g |w |r |r |p |
+r |y |r |  |p |
+w |b |g |b |y |
+
+g |w |r |r |p |
+r |y |r |b |p |
+w |b |g |  |y |
+
+g |w |r |r |p |
+r |y |r |b |p |
+w |b |g |y |  |
+
+g |w |r |r |p |
+r |y |r |b |  |
+w |b |g |y |p |
+
+g |w |r |r |p |
+r |y |r |  |b |
+w |b |g |y |p |
+
+g |w |r |r |p |
+r |y |  |r |b |
+w |b |g |y |p |
+
+g |w |r |r |p |
+r |  |y |r |b |
+w |b |g |y |p |
+
+g |w |r |r |p |
+  |r |y |r |b |
+w |b |g |y |p |
+
+  |w |r |r |p |
+g |r |y |r |b |
+w |b |g |y |p |
+
+w |  |r |r |p |
+g |r |y |r |b |
+w |b |g |y |p |
+
+w |r |  |r |p |
+g |r |y |r |b |
+w |b |g |y |p |
+
+w |r |y |r |p |
+g |r |  |r |b |
+w |b |g |y |p |
+
+w |r |y |r |p |
+g |r |g |r |b |
+w |b |  |y |p |
+
+w |r |y |r |p |
+g |r |g |r |b |
+w |  |b |y |p |
+
+w |r |y |r |p |
+g |  |g |r |b |
+w |r |b |y |p |
+
+w |r |y |r |p |
+g |g |  |r |b |
+w |r |b |y |p |
+
+w |r |y |r |p |
+g |g |b |r |b |
+w |r |  |y |p |
+
+w |r |y |r |p |
+g |g |b |r |b |
+w |r |y |  |p |
+
+w |r |y |r |p |
+g |g |b |  |b |
+w |r |y |r |p |
+
+Visual trace for puzzle #6
+
+y |  |p |w |b |
+p |g |r |b |y |
+w |g |r |r |r |
+
+y |p |  |w |b |
+p |g |r |b |y |
+w |g |r |r |r |
+
+y |p |r |w |b |
+p |g |  |b |y |
+w |g |r |r |r |
+
+y |p |r |w |b |
+p |  |g |b |y |
+w |g |r |r |r |
+
+y |p |r |w |b |
+p |g |g |b |y |
+w |  |r |r |r |
+
+y |p |r |w |b |
+p |g |g |b |y |
+  |w |r |r |r |
+
+y |p |r |w |b |
+  |g |g |b |y |
+p |w |r |r |r |
+
+  |p |r |w |b |
+y |g |g |b |y |
+p |w |r |r |r |
+
+p |  |r |w |b |
+y |g |g |b |y |
+p |w |r |r |r |
+
+p |g |r |w |b |
+y |  |g |b |y |
+p |w |r |r |r |
+
+p |g |r |w |b |
+y |g |  |b |y |
+p |w |r |r |r |
+
+p |g |r |w |b |
+y |g |r |b |y |
+p |w |  |r |r |
+
+p |g |r |w |b |
+y |g |r |b |y |
+p |w |r |  |r |
+
+p |g |r |w |b |
+y |g |r |  |y |
+p |w |r |b |r |
+
+p |g |r |w |b |
+y |g |  |r |y |
+p |w |r |b |r |
+
+p |g |r |w |b |
+y |g |r |r |y |
+p |w |  |b |r |
+
+p |g |r |w |b |
+y |g |r |r |y |
+p |  |w |b |r |
+
+p |g |r |w |b |
+y |  |r |r |y |
+p |g |w |b |r |
+
+p |g |r |w |b |
+y |r |  |r |y |
+p |g |w |b |r |
+
+p |g |r |w |b |
+y |r |r |  |y |
+p |g |w |b |r |
+
+p |g |r |w |b |
+y |r |r |y |  |
+p |g |w |b |r |
+
+p |g |r |w |b |
+y |r |r |y |r |
+p |g |w |b |  |
+
+p |g |r |w |b |
+y |r |r |y |r |
+p |g |w |  |b |
+
+p |g |r |w |b |
+y |r |r |y |r |
+p |g |  |w |b |
+
+p |g |r |w |b |
+y |r |  |y |r |
+p |g |r |w |b |
+
+Visual trace for puzzle #7
+
+b |p |g |  |w |
+y |r |w |p |r |
+b |r |y |g |r |
+
+b |p |g |w |  |
+y |r |w |p |r |
+b |r |y |g |r |
+
+b |p |g |w |r |
+y |r |w |p |  |
+b |r |y |g |r |
+
+b |p |g |w |r |
+y |r |w |p |r |
+b |r |y |g |  |
+
+b |p |g |w |r |
+y |r |w |p |r |
+b |r |y |  |g |
+
+b |p |g |w |r |
+y |r |w |  |r |
+b |r |y |p |g |
+
+b |p |g |  |r |
+y |r |w |w |r |
+b |r |y |p |g |
+
+b |p |  |g |r |
+y |r |w |w |r |
+b |r |y |p |g |
+
+b |  |p |g |r |
+y |r |w |w |r |
+b |r |y |p |g |
+
+b |r |p |g |r |
+y |  |w |w |r |
+b |r |y |p |g |
+
+b |r |p |g |r |
+y |w |  |w |r |
+b |r |y |p |g |
+
+b |r |p |g |r |
+y |w |y |w |r |
+b |r |  |p |g |
+
+b |r |p |g |r |
+y |w |y |w |r |
+b |r |p |  |g |
+
+b |r |p |g |r |
+y |w |y |w |r |
+b |r |p |g |  |
+
+b |r |p |g |r |
+y |w |y |w |  |
+b |r |p |g |r |
+
+Visual trace for puzzle #8
+
+r |b |p |r |p |
+w |w |b |y |y |
+  |r |g |r |g |
+
+r |b |p |r |p |
+w |w |b |y |y |
+r |  |g |r |g |
+
+r |b |p |r |p |
+w |w |b |y |y |
+r |g |  |r |g |
+
+r |b |p |r |p |
+w |w |  |y |y |
+r |g |b |r |g |
+
+r |b |  |r |p |
+w |w |p |y |y |
+r |g |b |r |g |
+
+r |b |r |  |p |
+w |w |p |y |y |
+r |g |b |r |g |
+
+r |b |r |y |p |
+w |w |p |  |y |
+r |g |b |r |g |
+
+r |b |r |y |p |
+w |w |  |p |y |
+r |g |b |r |g |
+
+r |b |r |y |p |
+w |  |w |p |y |
+r |g |b |r |g |
+
+r |b |r |y |p |
+w |g |w |p |y |
+r |  |b |r |g |
+
+r |b |r |y |p |
+w |g |w |p |y |
+r |b |  |r |g |
+
+r |b |r |y |p |
+w |g |w |p |y |
+r |b |r |  |g |
+
+r |b |r |y |p |
+w |g |w |  |y |
+r |b |r |p |g |
+
+r |b |r |y |p |
+w |g |w |y |  |
+r |b |r |p |g |
+
+r |b |r |y |p |
+w |g |w |y |g |
+r |b |r |p |  |
+
+r |b |r |y |p |
+w |g |w |y |g |
+r |b |r |  |p |
+
+r |b |r |y |p |
+w |g |w |  |g |
+r |b |r |y |p |
+
+Visual trace for puzzle #9
+
+b |r |y |p |g |
+w |r |w |y |  |
+p |g |b |r |r |
+
+b |r |y |p |g |
+w |r |w |y |r |
+p |g |b |r |  |
+
+b |r |y |p |g |
+w |r |w |y |r |
+p |g |b |  |r |
+
+b |r |y |p |g |
+w |r |w |  |r |
+p |g |b |y |r |
+
+b |r |y |p |g |
+w |r |  |w |r |
+p |g |b |y |r |
+
+b |r |y |p |g |
+w |r |b |w |r |
+p |g |  |y |r |
+
+b |r |y |p |g |
+w |r |b |w |r |
+p |  |g |y |r |
+
+b |r |y |p |g |
+w |  |b |w |r |
+p |r |g |y |r |
+
+b |r |y |p |g |
+w |b |  |w |r |
+p |r |g |y |r |
+
+b |r |  |p |g |
+w |b |y |w |r |
+p |r |g |y |r |
+
+b |r |p |  |g |
+w |b |y |w |r |
+p |r |g |y |r |
+
+b |r |p |g |  |
+w |b |y |w |r |
+p |r |g |y |r |
+
+b |r |p |g |r |
+w |b |y |w |  |
+p |r |g |y |r |
+
+b |r |p |g |r |
+w |b |y |  |w |
+p |r |g |y |r |
+
+b |r |p |g |r |
+w |b |  |y |w |
+p |r |g |y |r |
+
+b |r |  |g |r |
+w |b |p |y |w |
+p |r |g |y |r |
+
+b |r |g |  |r |
+w |b |p |y |w |
+p |r |g |y |r |
+
+b |r |g |y |r |
+w |b |p |  |w |
+p |r |g |y |r |
+
+b |r |g |y |r |
+w |b |  |p |w |
+p |r |g |y |r |
+
+b |r |g |y |r |
+w |b |g |p |w |
+p |r |  |y |r |
+
+b |r |g |y |r |
+w |b |g |p |w |
+p |  |r |y |r |
+
+b |r |g |y |r |
+w |  |g |p |w |
+p |b |r |y |r |
+
+b |r |g |y |r |
+  |w |g |p |w |
+p |b |r |y |r |
+
+b |r |g |y |r |
+p |w |g |p |w |
+  |b |r |y |r |
+
+b |r |g |y |r |
+p |w |g |p |w |
+b |  |r |y |r |
+
+b |r |g |y |r |
+p |w |g |p |w |
+b |r |  |y |r |
+
+b |r |g |y |r |
+p |w |  |p |w |
+b |r |g |y |r |
+
+Visual trace for puzzle #10
+
+g |b |w |r |w |
+g |r |b |r |p |
+y |r |  |y |p |
+
+g |b |w |r |w |
+g |r |  |r |p |
+y |r |b |y |p |
+
+g |b |  |r |w |
+g |r |w |r |p |
+y |r |b |y |p |
+
+g |b |r |  |w |
+g |r |w |r |p |
+y |r |b |y |p |
+
+g |b |r |w |  |
+g |r |w |r |p |
+y |r |b |y |p |
+
+g |b |r |w |p |
+g |r |w |r |  |
+y |r |b |y |p |
+
+g |b |r |w |p |
+g |r |w |  |r |
+y |r |b |y |p |
+
+g |b |r |w |p |
+g |r |  |w |r |
+y |r |b |y |p |
+
+g |b |r |w |p |
+g |  |r |w |r |
+y |r |b |y |p |
+
+g |b |r |w |p |
+g |r |r |w |r |
+y |  |b |y |p |
+
+g |b |r |w |p |
+g |r |r |w |r |
+  |y |b |y |p |
+
+g |b |r |w |p |
+  |r |r |w |r |
+g |y |b |y |p |
+
+g |b |r |w |p |
+r |  |r |w |r |
+g |y |b |y |p |
+
+g |b |r |w |p |
+r |y |r |w |r |
+g |  |b |y |p |
+
+g |b |r |w |p |
+r |y |r |w |r |
+g |b |  |y |p |
+
+g |b |r |w |p |
+r |y |  |w |r |
+g |b |r |y |p |
+
+g |b |r |w |p |
+r |  |y |w |r |
+g |b |r |y |p |
+
+g |b |r |w |p |
+r |b |y |w |r |
+g |  |r |y |p |
+
+g |b |r |w |p |
+r |b |y |w |r |
+g |r |  |y |p |
+
+g |b |r |w |p |
+r |b |y |w |r |
+g |r |y |  |p |
+
+g |b |r |w |p |
+r |b |y |  |r |
+g |r |y |w |p |
+
+g |b |r |w |p |
+r |b |  |y |r |
+g |r |y |w |p |
+
+g |b |r |w |p |
+r |b |y |y |r |
+g |r |  |w |p |
+
+g |b |r |w |p |
+r |b |y |y |r |
+g |  |r |w |p |
+
+g |b |r |w |p |
+r |  |y |y |r |
+g |b |r |w |p |
+
+Visual trace for puzzle #11
+
+r |r |y |b |g |
+b |r |r |p |  |
+y |w |p |w |g |
+
+r |r |y |b |g |
+b |r |r |  |p |
+y |w |p |w |g |
+
+r |r |y |b |g |
+b |r |r |w |p |
+y |w |p |  |g |
+
+r |r |y |b |g |
+b |r |r |w |p |
+y |w |  |p |g |
+
+r |r |y |b |g |
+b |r |r |w |p |
+y |  |w |p |g |
+
+r |r |y |b |g |
+b |  |r |w |p |
+y |r |w |p |g |
+
+r |r |y |b |g |
+  |b |r |w |p |
+y |r |w |p |g |
+
+r |r |y |b |g |
+y |b |r |w |p |
+  |r |w |p |g |
+
+r |r |y |b |g |
+y |b |r |w |p |
+r |  |w |p |g |
+
+r |r |y |b |g |
+y |  |r |w |p |
+r |b |w |p |g |
+
+r |r |y |b |g |
+y |r |  |w |p |
+r |b |w |p |g |
+
+r |r |  |b |g |
+y |r |y |w |p |
+r |b |w |p |g |
+
+r |r |b |  |g |
+y |r |y |w |p |
+r |b |w |p |g |
+
+r |r |b |w |g |
+y |r |y |  |p |
+r |b |w |p |g |
+
+r |r |b |w |g |
+y |r |y |p |p |
+r |b |w |  |g |
+
+r |r |b |w |g |
+y |r |y |p |p |
+r |b |  |w |g |
+
+r |r |b |w |g |
+y |r |y |p |p |
+r |  |b |w |g |
+
+r |r |b |w |g |
+y |  |y |p |p |
+r |r |b |w |g |
+
+Visual trace for puzzle #12
+
+y |b |r |w |p |
+  |r |y |g |r |
+b |w |r |g |p |
+
+  |b |r |w |p |
+y |r |y |g |r |
+b |w |r |g |p |
+
+b |  |r |w |p |
+y |r |y |g |r |
+b |w |r |g |p |
+
+b |r |  |w |p |
+y |r |y |g |r |
+b |w |r |g |p |
+
+b |r |w |  |p |
+y |r |y |g |r |
+b |w |r |g |p |
+
+b |r |w |g |p |
+y |r |y |  |r |
+b |w |r |g |p |
+
+b |r |w |g |p |
+y |r |  |y |r |
+b |w |r |g |p |
+
+b |r |w |g |p |
+y |r |r |y |r |
+b |w |  |g |p |
+
+b |r |w |g |p |
+y |r |r |y |r |
+b |  |w |g |p |
+
+b |r |w |g |p |
+y |  |r |y |r |
+b |r |w |g |p |
+
+Visual trace for puzzle #13
+
+r |g |p |r |r |
+r |b |w |y |g |
+w |b |  |p |y |
+
+r |g |p |r |r |
+r |b |w |y |g |
+w |b |p |  |y |
+
+r |g |p |r |r |
+r |b |w |y |g |
+w |b |p |y |  |
+
+r |g |p |r |r |
+r |b |w |y |  |
+w |b |p |y |g |
+
+r |g |p |r |  |
+r |b |w |y |r |
+w |b |p |y |g |
+
+r |g |p |  |r |
+r |b |w |y |r |
+w |b |p |y |g |
+
+r |g |  |p |r |
+r |b |w |y |r |
+w |b |p |y |g |
+
+r |  |g |p |r |
+r |b |w |y |r |
+w |b |p |y |g |
+
+r |b |g |p |r |
+r |  |w |y |r |
+w |b |p |y |g |
+
+r |b |g |p |r |
+r |w |  |y |r |
+w |b |p |y |g |
+
+r |b |g |p |r |
+r |w |y |  |r |
+w |b |p |y |g |
+
+r |b |g |p |r |
+r |w |y |y |r |
+w |b |p |  |g |
+
+r |b |g |p |r |
+r |w |y |y |r |
+w |b |p |g |  |
+
+r |b |g |p |r |
+r |w |y |y |  |
+w |b |p |g |r |
+
+r |b |g |p |r |
+r |w |y |  |y |
+w |b |p |g |r |
+
+r |b |g |  |r |
+r |w |y |p |y |
+w |b |p |g |r |
+
+r |b |  |g |r |
+r |w |y |p |y |
+w |b |p |g |r |
+
+r |  |b |g |r |
+r |w |y |p |y |
+w |b |p |g |r |
+
+r |w |b |g |r |
+r |  |y |p |y |
+w |b |p |g |r |
+
+r |w |b |g |r |
+r |y |  |p |y |
+w |b |p |g |r |
+
+r |w |b |g |r |
+r |y |p |p |y |
+w |b |  |g |r |
+
+r |w |b |g |r |
+r |y |p |p |y |
+w |  |b |g |r |
+
+r |w |b |g |r |
+r |y |p |p |y |
+  |w |b |g |r |
+
+r |w |b |g |r |
+  |y |p |p |y |
+r |w |b |g |r |
+
+Visual trace for puzzle #14
+
+w |p |r |b |b |
+w |y |g |r |p |
+y |r |g |  |r |
+
+w |p |r |b |b |
+w |y |g |r |p |
+y |r |g |r |  |
+
+w |p |r |b |b |
+w |y |g |r |  |
+y |r |g |r |p |
+
+w |p |r |b |  |
+w |y |g |r |b |
+y |r |g |r |p |
+
+w |p |r |  |b |
+w |y |g |r |b |
+y |r |g |r |p |
+
+w |p |  |r |b |
+w |y |g |r |b |
+y |r |g |r |p |
+
+w |  |p |r |b |
+w |y |g |r |b |
+y |r |g |r |p |
+
+w |y |p |r |b |
+w |  |g |r |b |
+y |r |g |r |p |
+
+w |y |p |r |b |
+w |r |g |r |b |
+y |  |g |r |p |
+
+w |y |p |r |b |
+w |r |g |r |b |
+  |y |g |r |p |
+
+w |y |p |r |b |
+  |r |g |r |b |
+w |y |g |r |p |
+
+w |y |p |r |b |
+r |  |g |r |b |
+w |y |g |r |p |
+
+w |y |p |r |b |
+r |g |  |r |b |
+w |y |g |r |p |
+
+w |y |p |r |b |
+r |g |r |  |b |
+w |y |g |r |p |
+
+w |y |p |r |b |
+r |g |r |r |b |
+w |y |g |  |p |
+
+w |y |p |r |b |
+r |g |r |r |b |
+w |y |g |p |  |
+
+w |y |p |r |b |
+r |g |r |r |  |
+w |y |g |p |b |
+
+w |y |p |r |b |
+r |g |r |  |r |
+w |y |g |p |b |
+
+w |y |p |r |b |
+r |g |  |r |r |
+w |y |g |p |b |
+
+w |y |p |r |b |
+r |g |g |r |r |
+w |y |  |p |b |
+
+w |y |p |r |b |
+r |g |g |r |r |
+w |y |p |  |b |
+
+w |y |p |r |b |
+r |g |g |  |r |
+w |y |p |r |b |
+
+Visual trace for puzzle #15
+
+y |y |g |r |  |
+w |g |b |r |p |
+b |w |r |r |p |
+
+y |y |g |r |p |
+w |g |b |r |  |
+b |w |r |r |p |
+
+y |y |g |r |p |
+w |g |b |  |r |
+b |w |r |r |p |
+
+y |y |g |r |p |
+w |g |  |b |r |
+b |w |r |r |p |
+
+y |y |g |r |p |
+w |  |g |b |r |
+b |w |r |r |p |
+
+y |  |g |r |p |
+w |y |g |b |r |
+b |w |r |r |p |
+
+  |y |g |r |p |
+w |y |g |b |r |
+b |w |r |r |p |
+
+w |y |g |r |p |
+  |y |g |b |r |
+b |w |r |r |p |
+
+w |y |g |r |p |
+b |y |g |b |r |
+  |w |r |r |p |
+
+w |y |g |r |p |
+b |y |g |b |r |
+w |  |r |r |p |
+
+w |y |g |r |p |
+b |  |g |b |r |
+w |y |r |r |p |
+
+w |y |g |r |p |
+  |b |g |b |r |
+w |y |r |r |p |
+
+w |y |g |r |p |
+w |b |g |b |r |
+  |y |r |r |p |
+
+w |y |g |r |p |
+w |b |g |b |r |
+y |  |r |r |p |
+
+w |y |g |r |p |
+w |b |g |b |r |
+y |r |  |r |p |
+
+w |y |g |r |p |
+w |b |  |b |r |
+y |r |g |r |p |
+
+w |y |g |r |p |
+w |  |b |b |r |
+y |r |g |r |p |
+
+w |y |g |r |p |
+w |r |b |b |r |
+y |  |g |r |p |
+
+w |y |g |r |p |
+w |r |b |b |r |
+  |y |g |r |p |
+
+w |y |g |r |p |
+  |r |b |b |r |
+w |y |g |r |p |
+
+Visual trace for puzzle #16
+
+r |g |b |b |r |
+p |w |  |g |r |
+y |p |y |w |r |
+
+r |g |b |b |r |
+p |w |y |g |r |
+y |p |  |w |r |
+
+r |g |b |b |r |
+p |w |y |g |r |
+y |p |w |  |r |
+
+r |g |b |b |r |
+p |w |y |  |r |
+y |p |w |g |r |
+
+r |g |b |  |r |
+p |w |y |b |r |
+y |p |w |g |r |
+
+r |g |  |b |r |
+p |w |y |b |r |
+y |p |w |g |r |
+
+r |  |g |b |r |
+p |w |y |b |r |
+y |p |w |g |r |
+
+r |w |g |b |r |
+p |  |y |b |r |
+y |p |w |g |r |
+
+r |w |g |b |r |
+p |y |  |b |r |
+y |p |w |g |r |
+
+r |w |g |b |r |
+p |y |b |  |r |
+y |p |w |g |r |
+
+r |w |g |  |r |
+p |y |b |b |r |
+y |p |w |g |r |
+
+r |w |  |g |r |
+p |y |b |b |r |
+y |p |w |g |r |
+
+r |  |w |g |r |
+p |y |b |b |r |
+y |p |w |g |r |
+
+r |y |w |g |r |
+p |  |b |b |r |
+y |p |w |g |r |
+
+r |y |w |g |r |
+  |p |b |b |r |
+y |p |w |g |r |
+
+  |y |w |g |r |
+r |p |b |b |r |
+y |p |w |g |r |
+
+y |  |w |g |r |
+r |p |b |b |r |
+y |p |w |g |r |
+
+y |p |w |g |r |
+r |  |b |b |r |
+y |p |w |g |r |
+
+Visual trace for puzzle #17
+
+w |b |r |b |r |
+y |w |p |p |  |
+r |g |r |y |g |
+
+w |b |r |b |r |
+y |w |p |p |g |
+r |g |r |y |  |
+
+w |b |r |b |r |
+y |w |p |p |g |
+r |g |r |  |y |
+
+w |b |r |b |r |
+y |w |p |p |g |
+r |g |  |r |y |
+
+w |b |r |b |r |
+y |w |  |p |g |
+r |g |p |r |y |
+
+w |b |r |b |r |
+y |  |w |p |g |
+r |g |p |r |y |
+
+w |  |r |b |r |
+y |b |w |p |g |
+r |g |p |r |y |
+
+w |r |  |b |r |
+y |b |w |p |g |
+r |g |p |r |y |
+
+w |r |b |  |r |
+y |b |w |p |g |
+r |g |p |r |y |
+
+w |r |b |p |r |
+y |b |w |  |g |
+r |g |p |r |y |
+
+w |r |b |p |r |
+y |b |w |g |  |
+r |g |p |r |y |
+
+w |r |b |p |r |
+y |b |w |g |y |
+r |g |p |r |  |
+
+w |r |b |p |r |
+y |b |w |g |y |
+r |g |p |  |r |
+
+w |r |b |p |r |
+y |b |w |g |y |
+r |g |  |p |r |
+
+w |r |b |p |r |
+y |b |  |g |y |
+r |g |w |p |r |
+
+w |r |b |p |r |
+y |  |b |g |y |
+r |g |w |p |r |
+
+w |r |b |p |r |
+  |y |b |g |y |
+r |g |w |p |r |
+
+w |r |b |p |r |
+r |y |b |g |y |
+  |g |w |p |r |
+
+w |r |b |p |r |
+r |y |b |g |y |
+g |  |w |p |r |
+
+w |r |b |p |r |
+r |y |b |g |y |
+g |w |  |p |r |
+
+w |r |b |p |r |
+r |y |  |g |y |
+g |w |b |p |r |
+
+w |r |b |p |r |
+r |  |y |g |y |
+g |w |b |p |r |
+
+w |r |b |p |r |
+  |r |y |g |y |
+g |w |b |p |r |
+
+w |r |b |p |r |
+g |r |y |g |y |
+  |w |b |p |r |
+
+w |r |b |p |r |
+g |r |y |g |y |
+w |  |b |p |r |
+
+w |r |b |p |r |
+g |  |y |g |y |
+w |r |b |p |r |
+
+Visual trace for puzzle #18
+
+b |  |r |r |y |
+p |g |g |r |y |
+r |p |w |b |w |
+
+b |r |  |r |y |
+p |g |g |r |y |
+r |p |w |b |w |
+
+b |r |g |r |y |
+p |g |  |r |y |
+r |p |w |b |w |
+
+b |r |g |r |y |
+p |g |w |r |y |
+r |p |  |b |w |
+
+b |r |g |r |y |
+p |g |w |r |y |
+r |p |b |  |w |
+
+b |r |g |r |y |
+p |g |w |  |y |
+r |p |b |r |w |
+
+b |r |g |r |y |
+p |g |  |w |y |
+r |p |b |r |w |
+
+b |r |g |r |y |
+p |  |g |w |y |
+r |p |b |r |w |
+
+b |  |g |r |y |
+p |r |g |w |y |
+r |p |b |r |w |
+
+  |b |g |r |y |
+p |r |g |w |y |
+r |p |b |r |w |
+
+p |b |g |r |y |
+  |r |g |w |y |
+r |p |b |r |w |
+
+p |b |g |r |y |
+r |r |g |w |y |
+  |p |b |r |w |
+
+p |b |g |r |y |
+r |r |g |w |y |
+p |  |b |r |w |
+
+p |b |g |r |y |
+r |r |g |w |y |
+p |b |  |r |w |
+
+p |b |g |r |y |
+r |r |g |w |y |
+p |b |r |  |w |
+
+p |b |g |r |y |
+r |r |g |w |y |
+p |b |r |w |  |
+
+p |b |g |r |y |
+r |r |g |w |  |
+p |b |r |w |y |
+
+p |b |g |r |y |
+r |r |g |  |w |
+p |b |r |w |y |
+
+p |b |g |r |y |
+r |r |g |w |w |
+p |b |r |  |y |
+
+p |b |g |r |y |
+r |r |g |w |w |
+p |b |  |r |y |
+
+p |b |g |r |y |
+r |r |  |w |w |
+p |b |g |r |y |
+
+Visual trace for puzzle #19
+
+g |w |y |b |r |
+r |g |r |p |  |
+p |y |w |b |r |
+
+g |w |y |b |r |
+r |g |r |  |p |
+p |y |w |b |r |
+
+g |w |y |b |r |
+r |g |  |r |p |
+p |y |w |b |r |
+
+g |w |y |b |r |
+r |g |w |r |p |
+p |y |  |b |r |
+
+g |w |y |b |r |
+r |g |w |r |p |
+p |  |y |b |r |
+
+g |w |y |b |r |
+r |  |w |r |p |
+p |g |y |b |r |
+
+g |w |y |b |r |
+  |r |w |r |p |
+p |g |y |b |r |
+
+g |w |y |b |r |
+p |r |w |r |p |
+  |g |y |b |r |
+
+g |w |y |b |r |
+p |r |w |r |p |
+g |  |y |b |r |
+
+g |w |y |b |r |
+p |  |w |r |p |
+g |r |y |b |r |
+
+g |w |y |b |r |
+p |w |  |r |p |
+g |r |y |b |r |
+
+g |w |y |b |r |
+p |w |r |  |p |
+g |r |y |b |r |
+
+g |w |y |b |r |
+p |w |r |b |p |
+g |r |y |  |r |
+
+g |w |y |b |r |
+p |w |r |b |p |
+g |r |  |y |r |
+
+g |w |y |b |r |
+p |w |r |b |p |
+g |  |r |y |r |
+
+g |w |y |b |r |
+p |  |r |b |p |
+g |w |r |y |r |
+
+g |w |y |b |r |
+p |r |  |b |p |
+g |w |r |y |r |
+
+g |w |y |b |r |
+p |r |r |b |p |
+g |w |  |y |r |
+
+g |w |y |b |r |
+p |r |r |b |p |
+g |w |y |  |r |
+
+g |w |y |b |r |
+p |r |r |  |p |
+g |w |y |b |r |
+
+Visual trace for puzzle #20
+
+y |w |r |w |b |
+p |  |r |b |y |
+g |p |g |r |r |
+
+y |w |r |w |b |
+  |p |r |b |y |
+g |p |g |r |r |
+
+y |w |r |w |b |
+g |p |r |b |y |
+  |p |g |r |r |
+
+y |w |r |w |b |
+g |p |r |b |y |
+p |  |g |r |r |
+
+y |w |r |w |b |
+g |p |r |b |y |
+p |g |  |r |r |
+
+y |w |r |w |b |
+g |p |r |b |y |
+p |g |r |  |r |
+
+y |w |r |w |b |
+g |p |r |  |y |
+p |g |r |b |r |
+
+y |w |r |  |b |
+g |p |r |w |y |
+p |g |r |b |r |
+
+y |w |  |r |b |
+g |p |r |w |y |
+p |g |r |b |r |
+
+y |  |w |r |b |
+g |p |r |w |y |
+p |g |r |b |r |
+
+y |p |w |r |b |
+g |  |r |w |y |
+p |g |r |b |r |
+
+y |p |w |r |b |
+  |g |r |w |y |
+p |g |r |b |r |
+
+  |p |w |r |b |
+y |g |r |w |y |
+p |g |r |b |r |
+
+p |  |w |r |b |
+y |g |r |w |y |
+p |g |r |b |r |
+
+p |g |w |r |b |
+y |  |r |w |y |
+p |g |r |b |r |
+
+p |g |w |r |b |
+y |r |  |w |y |
+p |g |r |b |r |
+
+p |g |w |r |b |
+y |r |w |  |y |
+p |g |r |b |r |
+
+p |g |w |r |b |
+y |r |w |y |  |
+p |g |r |b |r |
+
+p |g |w |r |b |
+y |r |w |y |r |
+p |g |r |b |  |
+
+p |g |w |r |b |
+y |r |w |y |r |
+p |g |r |  |b |
+
+p |g |w |r |b |
+y |r |w |y |r |
+p |g |  |r |b |
+
+p |g |w |r |b |
+y |r |  |y |r |
+p |g |w |r |b |
+
+Visual trace for puzzle #21
+
+r |b |y |p |y |
+p |g |g |r |r |
+r |b |w |w |  |
+
+r |b |y |p |y |
+p |g |g |r |  |
+r |b |w |w |r |
+
+r |b |y |p |  |
+p |g |g |r |y |
+r |b |w |w |r |
+
+r |b |y |  |p |
+p |g |g |r |y |
+r |b |w |w |r |
+
+r |b |y |r |p |
+p |g |g |  |y |
+r |b |w |w |r |
+
+r |b |y |r |p |
+p |g |g |y |  |
+r |b |w |w |r |
+
+r |b |y |r |  |
+p |g |g |y |p |
+r |b |w |w |r |
+
+r |b |y |  |r |
+p |g |g |y |p |
+r |b |w |w |r |
+
+r |b |  |y |r |
+p |g |g |y |p |
+r |b |w |w |r |
+
+r |  |b |y |r |
+p |g |g |y |p |
+r |b |w |w |r |
+
+r |g |b |y |r |
+p |  |g |y |p |
+r |b |w |w |r |
+
+r |g |b |y |r |
+p |g |  |y |p |
+r |b |w |w |r |
+
+r |g |b |y |r |
+p |g |w |y |p |
+r |b |  |w |r |
+
+r |g |b |y |r |
+p |g |w |y |p |
+r |b |w |  |r |
+
+r |g |b |y |r |
+p |g |w |  |p |
+r |b |w |y |r |
+
+r |g |b |y |r |
+p |g |  |w |p |
+r |b |w |y |r |
+
+r |g |b |y |r |
+p |g |w |w |p |
+r |b |  |y |r |
+
+r |g |b |y |r |
+p |g |w |w |p |
+r |  |b |y |r |
+
+r |g |b |y |r |
+p |  |w |w |p |
+r |g |b |y |r |
+
+Visual trace for puzzle #22
+
+r |r |g |g |  |
+r |p |p |b |w |
+w |y |y |b |r |
+
+r |r |g |  |g |
+r |p |p |b |w |
+w |y |y |b |r |
+
+r |r |g |b |g |
+r |p |p |  |w |
+w |y |y |b |r |
+
+r |r |g |b |g |
+r |p |p |w |  |
+w |y |y |b |r |
+
+r |r |g |b |  |
+r |p |p |w |g |
+w |y |y |b |r |
+
+r |r |g |  |b |
+r |p |p |w |g |
+w |y |y |b |r |
+
+r |r |  |g |b |
+r |p |p |w |g |
+w |y |y |b |r |
+
+r |r |p |g |b |
+r |p |  |w |g |
+w |y |y |b |r |
+
+r |r |p |g |b |
+r |  |p |w |g |
+w |y |y |b |r |
+
+r |r |p |g |b |
+r |y |p |w |g |
+w |  |y |b |r |
+
+r |r |p |g |b |
+r |y |p |w |g |
+  |w |y |b |r |
+
+r |r |p |g |b |
+  |y |p |w |g |
+r |w |y |b |r |
+
+  |r |p |g |b |
+r |y |p |w |g |
+r |w |y |b |r |
+
+r |  |p |g |b |
+r |y |p |w |g |
+r |w |y |b |r |
+
+r |y |p |g |b |
+r |  |p |w |g |
+r |w |y |b |r |
+
+r |y |p |g |b |
+r |w |p |w |g |
+r |  |y |b |r |
+
+r |y |p |g |b |
+r |w |p |w |g |
+r |y |  |b |r |
+
+r |y |p |g |b |
+r |w |  |w |g |
+r |y |p |b |r |
+
+r |y |p |g |b |
+r |w |w |  |g |
+r |y |p |b |r |
+
+r |y |p |g |b |
+r |w |w |g |  |
+r |y |p |b |r |
+
+r |y |p |g |b |
+r |w |w |g |r |
+r |y |p |b |  |
+
+r |y |p |g |b |
+r |w |w |g |r |
+r |y |p |  |b |
+
+r |y |p |g |b |
+r |w |w |  |r |
+r |y |p |g |b |
+
+Visual trace for puzzle #23
+
+y |r |p |y |b |
+p |b |w |g |r |
+r |w |r |g |  |
+
+y |r |p |y |b |
+p |b |w |g |r |
+r |w |r |  |g |
+
+y |r |p |y |b |
+p |b |w |g |r |
+r |w |  |r |g |
+
+y |r |p |y |b |
+p |b |w |g |r |
+r |  |w |r |g |
+
+y |r |p |y |b |
+p |  |w |g |r |
+r |b |w |r |g |
+
+y |r |p |y |b |
+p |w |  |g |r |
+r |b |w |r |g |
+
+y |r |  |y |b |
+p |w |p |g |r |
+r |b |w |r |g |
+
+y |r |y |  |b |
+p |w |p |g |r |
+r |b |w |r |g |
+
+y |r |y |b |  |
+p |w |p |g |r |
+r |b |w |r |g |
+
+y |r |y |b |r |
+p |w |p |g |  |
+r |b |w |r |g |
+
+y |r |y |b |r |
+p |w |p |  |g |
+r |b |w |r |g |
+
+y |r |y |b |r |
+p |w |  |p |g |
+r |b |w |r |g |
+
+y |r |  |b |r |
+p |w |y |p |g |
+r |b |w |r |g |
+
+y |r |b |  |r |
+p |w |y |p |g |
+r |b |w |r |g |
+
+y |r |b |r |  |
+p |w |y |p |g |
+r |b |w |r |g |
+
+y |r |b |r |g |
+p |w |y |p |  |
+r |b |w |r |g |
+
+y |r |b |r |g |
+p |w |y |  |p |
+r |b |w |r |g |
+
+y |r |b |r |g |
+p |w |  |y |p |
+r |b |w |r |g |
+
+y |r |b |r |g |
+p |  |w |y |p |
+r |b |w |r |g |
+
+y |r |b |r |g |
+  |p |w |y |p |
+r |b |w |r |g |
+
+  |r |b |r |g |
+y |p |w |y |p |
+r |b |w |r |g |
+
+r |  |b |r |g |
+y |p |w |y |p |
+r |b |w |r |g |
+
+r |b |  |r |g |
+y |p |w |y |p |
+r |b |w |r |g |
+
+r |b |w |r |g |
+y |p |  |y |p |
+r |b |w |r |g |
+
+Visual trace for puzzle #24
+
+p |g |y |  |b |
+y |r |r |g |w |
+p |b |w |r |r |
+
+p |g |y |b |  |
+y |r |r |g |w |
+p |b |w |r |r |
+
+p |g |y |b |w |
+y |r |r |g |  |
+p |b |w |r |r |
+
+p |g |y |b |w |
+y |r |r |g |r |
+p |b |w |r |  |
+
+p |g |y |b |w |
+y |r |r |g |r |
+p |b |w |  |r |
+
+p |g |y |b |w |
+y |r |r |g |r |
+p |b |  |w |r |
+
+p |g |y |b |w |
+y |r |r |g |r |
+p |  |b |w |r |
+
+p |g |y |b |w |
+y |  |r |g |r |
+p |r |b |w |r |
+
+p |g |y |b |w |
+y |r |  |g |r |
+p |r |b |w |r |
+
+p |g |  |b |w |
+y |r |y |g |r |
+p |r |b |w |r |
+
+p |  |g |b |w |
+y |r |y |g |r |
+p |r |b |w |r |
+
+p |r |g |b |w |
+y |  |y |g |r |
+p |r |b |w |r |
+
+p |r |g |b |w |
+y |y |  |g |r |
+p |r |b |w |r |
+
+p |r |g |b |w |
+y |y |g |  |r |
+p |r |b |w |r |
+
+p |r |g |b |w |
+y |y |g |r |  |
+p |r |b |w |r |
+
+p |r |g |b |w |
+y |y |g |r |r |
+p |r |b |w |  |
+
+p |r |g |b |w |
+y |y |g |r |r |
+p |r |b |  |w |
+
+p |r |g |b |w |
+y |y |g |r |r |
+p |r |  |b |w |
+
+p |r |g |b |w |
+y |y |  |r |r |
+p |r |g |b |w |
+
+Visual trace for puzzle #25
+
+y |y |w |r |b |
+g |  |r |r |w |
+r |p |g |p |b |
+
+y |y |w |r |b |
+  |g |r |r |w |
+r |p |g |p |b |
+
+  |y |w |r |b |
+y |g |r |r |w |
+r |p |g |p |b |
+
+y |  |w |r |b |
+y |g |r |r |w |
+r |p |g |p |b |
+
+y |g |w |r |b |
+y |  |r |r |w |
+r |p |g |p |b |
+
+y |g |w |r |b |
+y |r |  |r |w |
+r |p |g |p |b |
+
+y |g |  |r |b |
+y |r |w |r |w |
+r |p |g |p |b |
+
+y |  |g |r |b |
+y |r |w |r |w |
+r |p |g |p |b |
+
+y |r |g |r |b |
+y |  |w |r |w |
+r |p |g |p |b |
+
+y |r |g |r |b |
+y |p |w |r |w |
+r |  |g |p |b |
+
+y |r |g |r |b |
+y |p |w |r |w |
+  |r |g |p |b |
+
+y |r |g |r |b |
+  |p |w |r |w |
+y |r |g |p |b |
+
+y |r |g |r |b |
+p |  |w |r |w |
+y |r |g |p |b |
+
+y |r |g |r |b |
+p |r |w |r |w |
+y |  |g |p |b |
+
+y |r |g |r |b |
+p |r |w |r |w |
+y |g |  |p |b |
+
+y |r |g |r |b |
+p |r |w |r |w |
+y |g |p |  |b |
+
+y |r |g |r |b |
+p |r |w |  |w |
+y |g |p |r |b |
+
+y |r |g |r |b |
+p |r |  |w |w |
+y |g |p |r |b |
+
+y |r |g |r |b |
+p |r |p |w |w |
+y |g |  |r |b |
+
+y |r |g |r |b |
+p |r |p |w |w |
+y |  |g |r |b |
+
+y |r |g |r |b |
+p |  |p |w |w |
+y |r |g |r |b |
+
+Visual trace for puzzle #26
+
+y |p |r |g |w |
+p |r |r |b |g |
+b |w |y |  |r |
+
+y |p |r |g |w |
+p |r |r |b |g |
+b |w |y |r |  |
+
+y |p |r |g |w |
+p |r |r |b |  |
+b |w |y |r |g |
+
+y |p |r |g |  |
+p |r |r |b |w |
+b |w |y |r |g |
+
+y |p |r |  |g |
+p |r |r |b |w |
+b |w |y |r |g |
+
+y |p |  |r |g |
+p |r |r |b |w |
+b |w |y |r |g |
+
+y |p |r |r |g |
+p |r |  |b |w |
+b |w |y |r |g |
+
+y |p |r |r |g |
+p |  |r |b |w |
+b |w |y |r |g |
+
+y |p |r |r |g |
+p |w |r |b |w |
+b |  |y |r |g |
+
+y |p |r |r |g |
+p |w |r |b |w |
+b |y |  |r |g |
+
+y |p |r |r |g |
+p |w |  |b |w |
+b |y |r |r |g |
+
+y |p |r |r |g |
+p |  |w |b |w |
+b |y |r |r |g |
+
+y |p |r |r |g |
+  |p |w |b |w |
+b |y |r |r |g |
+
+y |p |r |r |g |
+b |p |w |b |w |
+  |y |r |r |g |
+
+y |p |r |r |g |
+b |p |w |b |w |
+y |  |r |r |g |
+
+y |p |r |r |g |
+b |  |w |b |w |
+y |p |r |r |g |
+
+Visual trace for puzzle #27
+
+b |  |w |w |r |
+g |y |r |p |r |
+y |b |r |p |g |
+
+b |w |  |w |r |
+g |y |r |p |r |
+y |b |r |p |g |
+
+b |w |r |w |r |
+g |y |  |p |r |
+y |b |r |p |g |
+
+b |w |r |w |r |
+g |  |y |p |r |
+y |b |r |p |g |
+
+b |  |r |w |r |
+g |w |y |p |r |
+y |b |r |p |g |
+
+b |r |  |w |r |
+g |w |y |p |r |
+y |b |r |p |g |
+
+b |r |w |  |r |
+g |w |y |p |r |
+y |b |r |p |g |
+
+b |r |w |p |r |
+g |w |y |  |r |
+y |b |r |p |g |
+
+b |r |w |p |r |
+g |w |  |y |r |
+y |b |r |p |g |
+
+b |r |w |p |r |
+g |  |w |y |r |
+y |b |r |p |g |
+
+b |r |w |p |r |
+  |g |w |y |r |
+y |b |r |p |g |
+
+b |r |w |p |r |
+y |g |w |y |r |
+  |b |r |p |g |
+
+b |r |w |p |r |
+y |g |w |y |r |
+b |  |r |p |g |
+
+b |r |w |p |r |
+y |g |w |y |r |
+b |r |  |p |g |
+
+b |r |w |p |r |
+y |g |w |y |r |
+b |r |p |  |g |
+
+b |r |w |p |r |
+y |g |w |y |r |
+b |r |p |g |  |
+
+b |r |w |p |r |
+y |g |w |y |  |
+b |r |p |g |r |
+
+b |r |w |p |r |
+y |g |w |  |y |
+b |r |p |g |r |
+
+b |r |w |p |r |
+y |g |w |g |y |
+b |r |p |  |r |
+
+b |r |w |p |r |
+y |g |w |g |y |
+b |r |  |p |r |
+
+b |r |w |p |r |
+y |g |  |g |y |
+b |r |w |p |r |
+
+Visual trace for puzzle #28
+
+  |p |b |g |y |
+r |r |w |b |r |
+y |p |r |g |w |
+
+r |p |b |g |y |
+  |r |w |b |r |
+y |p |r |g |w |
+
+r |p |b |g |y |
+r |  |w |b |r |
+y |p |r |g |w |
+
+r |p |b |g |y |
+r |w |  |b |r |
+y |p |r |g |w |
+
+r |p |b |g |y |
+r |w |b |  |r |
+y |p |r |g |w |
+
+r |p |b |g |y |
+r |w |b |r |  |
+y |p |r |g |w |
+
+r |p |b |g |  |
+r |w |b |r |y |
+y |p |r |g |w |
+
+r |p |b |  |g |
+r |w |b |r |y |
+y |p |r |g |w |
+
+r |p |b |r |g |
+r |w |b |  |y |
+y |p |r |g |w |
+
+r |p |b |r |g |
+r |w |b |y |  |
+y |p |r |g |w |
+
+r |p |b |r |g |
+r |w |b |y |w |
+y |p |r |g |  |
+
+r |p |b |r |g |
+r |w |b |y |w |
+y |p |r |  |g |
+
+r |p |b |r |g |
+r |w |b |y |w |
+y |p |  |r |g |
+
+r |p |b |r |g |
+r |w |b |y |w |
+y |  |p |r |g |
+
+r |p |b |r |g |
+r |w |b |y |w |
+  |y |p |r |g |
+
+r |p |b |r |g |
+  |w |b |y |w |
+r |y |p |r |g |
+
+r |p |b |r |g |
+w |  |b |y |w |
+r |y |p |r |g |
+
+r |p |b |r |g |
+w |y |b |y |w |
+r |  |p |r |g |
+
+r |p |b |r |g |
+w |y |b |y |w |
+r |p |  |r |g |
+
+r |p |b |r |g |
+w |y |  |y |w |
+r |p |b |r |g |
+
+Visual trace for puzzle #29
+
+r |p |b |g |w |
+g |r |y |  |p |
+r |y |b |w |r |
+
+r |p |b |g |w |
+g |r |y |p |  |
+r |y |b |w |r |
+
+r |p |b |g |w |
+g |r |y |p |r |
+r |y |b |w |  |
+
+r |p |b |g |w |
+g |r |y |p |r |
+r |y |b |  |w |
+
+r |p |b |g |w |
+g |r |y |  |r |
+r |y |b |p |w |
+
+r |p |b |  |w |
+g |r |y |g |r |
+r |y |b |p |w |
+
+r |p |  |b |w |
+g |r |y |g |r |
+r |y |b |p |w |
+
+r |p |y |b |w |
+g |r |  |g |r |
+r |y |b |p |w |
+
+r |p |y |b |w |
+g |r |g |  |r |
+r |y |b |p |w |
+
+r |p |y |b |w |
+g |r |g |p |r |
+r |y |b |  |w |
+
+r |p |y |b |w |
+g |r |g |p |r |
+r |y |  |b |w |
+
+r |p |y |b |w |
+g |r |g |p |r |
+r |  |y |b |w |
+
+r |p |y |b |w |
+g |  |g |p |r |
+r |r |y |b |w |
+
+r |p |y |b |w |
+g |g |  |p |r |
+r |r |y |b |w |
+
+r |p |y |b |w |
+g |g |p |  |r |
+r |r |y |b |w |
+
+r |p |y |b |w |
+g |g |p |b |r |
+r |r |y |  |w |
+
+r |p |y |b |w |
+g |g |p |b |r |
+r |r |  |y |w |
+
+r |p |y |b |w |
+g |g |  |b |r |
+r |r |p |y |w |
+
+r |p |y |b |w |
+g |  |g |b |r |
+r |r |p |y |w |
+
+r |p |y |b |w |
+g |r |g |b |r |
+r |  |p |y |w |
+
+r |p |y |b |w |
+g |r |g |b |r |
+r |p |  |y |w |
+
+r |p |y |b |w |
+g |r |g |b |r |
+r |p |y |  |w |
+
+r |p |y |b |w |
+g |r |g |  |r |
+r |p |y |b |w |
+
+Visual trace for puzzle #30
+
+g |b |r |r |p |
+b |r |y |w |g |
+p |w |y |  |r |
+
+g |b |r |r |p |
+b |r |y |w |g |
+p |w |  |y |r |
+
+g |b |r |r |p |
+b |r |y |w |g |
+p |  |w |y |r |
+
+g |b |r |r |p |
+b |  |y |w |g |
+p |r |w |y |r |
+
+g |b |r |r |p |
+  |b |y |w |g |
+p |r |w |y |r |
+
+  |b |r |r |p |
+g |b |y |w |g |
+p |r |w |y |r |
+
+b |  |r |r |p |
+g |b |y |w |g |
+p |r |w |y |r |
+
+b |r |  |r |p |
+g |b |y |w |g |
+p |r |w |y |r |
+
+b |r |y |r |p |
+g |b |  |w |g |
+p |r |w |y |r |
+
+b |r |y |r |p |
+g |b |w |  |g |
+p |r |w |y |r |
+
+b |r |y |r |p |
+g |b |w |g |  |
+p |r |w |y |r |
+
+b |r |y |r |  |
+g |b |w |g |p |
+p |r |w |y |r |
+
+b |r |y |  |r |
+g |b |w |g |p |
+p |r |w |y |r |
+
+b |r |  |y |r |
+g |b |w |g |p |
+p |r |w |y |r |
+
+b |r |w |y |r |
+g |b |  |g |p |
+p |r |w |y |r |
+
+b |r |w |y |r |
+g |b |w |g |p |
+p |r |  |y |r |
+
+b |r |w |y |r |
+g |b |w |g |p |
+p |  |r |y |r |
+
+b |r |w |y |r |
+g |  |w |g |p |
+p |b |r |y |r |
+
+b |r |w |y |r |
+  |g |w |g |p |
+p |b |r |y |r |
+
+b |r |w |y |r |
+p |g |w |g |p |
+  |b |r |y |r |
+
+b |r |w |y |r |
+p |g |w |g |p |
+b |  |r |y |r |
+
+b |r |w |y |r |
+p |g |w |g |p |
+b |r |  |y |r |
+
+b |r |w |y |r |
+p |g |  |g |p |
+b |r |w |y |r |
+
+Visual trace for puzzle #31
+
+b |g |r |r |g |
+p |w |y |  |r |
+p |w |r |y |b |
+
+b |g |r |r |g |
+p |w |y |r |  |
+p |w |r |y |b |
+
+b |g |r |r |g |
+p |w |y |r |b |
+p |w |r |y |  |
+
+b |g |r |r |g |
+p |w |y |r |b |
+p |w |r |  |y |
+
+b |g |r |r |g |
+p |w |y |  |b |
+p |w |r |r |y |
+
+b |g |r |r |g |
+p |w |  |y |b |
+p |w |r |r |y |
+
+b |g |  |r |g |
+p |w |r |y |b |
+p |w |r |r |y |
+
+b |g |r |  |g |
+p |w |r |y |b |
+p |w |r |r |y |
+
+b |g |r |y |g |
+p |w |r |  |b |
+p |w |r |r |y |
+
+b |g |r |y |g |
+p |w |r |b |  |
+p |w |r |r |y |
+
+b |g |r |y |  |
+p |w |r |b |g |
+p |w |r |r |y |
+
+b |g |r |  |y |
+p |w |r |b |g |
+p |w |r |r |y |
+
+b |g |  |r |y |
+p |w |r |b |g |
+p |w |r |r |y |
+
+b |g |r |r |y |
+p |w |  |b |g |
+p |w |r |r |y |
+
+b |g |r |r |y |
+p |  |w |b |g |
+p |w |r |r |y |
+
+b |  |r |r |y |
+p |g |w |b |g |
+p |w |r |r |y |
+
+  |b |r |r |y |
+p |g |w |b |g |
+p |w |r |r |y |
+
+p |b |r |r |y |
+  |g |w |b |g |
+p |w |r |r |y |
+
+p |b |r |r |y |
+g |  |w |b |g |
+p |w |r |r |y |
+
+p |b |r |r |y |
+g |w |  |b |g |
+p |w |r |r |y |
+
+p |b |r |r |y |
+g |w |b |  |g |
+p |w |r |r |y |
+
+p |b |r |r |y |
+g |w |b |r |g |
+p |w |r |  |y |
+
+p |b |r |r |y |
+g |w |b |r |g |
+p |w |  |r |y |
+
+p |b |r |r |y |
+g |w |  |r |g |
+p |w |b |r |y |
+
+p |b |r |r |y |
+g |  |w |r |g |
+p |w |b |r |y |
+
+p |b |r |r |y |
+g |w |w |r |g |
+p |  |b |r |y |
+
+p |b |r |r |y |
+g |w |w |r |g |
+p |b |  |r |y |
+
+p |b |r |r |y |
+g |w |w |r |g |
+p |b |r |  |y |
+
+p |b |r |r |y |
+g |w |w |  |g |
+p |b |r |r |y |
+
+Visual trace for puzzle #32
+
+r |g |w |p |r |
+r |g |y |y |b |
+  |w |p |b |r |
+
+r |g |w |p |r |
+  |g |y |y |b |
+r |w |p |b |r |
+
+r |g |w |p |r |
+g |  |y |y |b |
+r |w |p |b |r |
+
+r |  |w |p |r |
+g |g |y |y |b |
+r |w |p |b |r |
+
+r |w |  |p |r |
+g |g |y |y |b |
+r |w |p |b |r |
+
+r |w |y |p |r |
+g |g |  |y |b |
+r |w |p |b |r |
+
+r |w |y |p |r |
+g |g |y |  |b |
+r |w |p |b |r |
+
+r |w |y |p |r |
+g |g |y |b |b |
+r |w |p |  |r |
+
+r |w |y |p |r |
+g |g |y |b |b |
+r |w |  |p |r |
+
+r |w |y |p |r |
+g |g |  |b |b |
+r |w |y |p |r |
+
+Visual trace for puzzle #33
+
+b |y |r |r |g |
+  |r |p |g |p |
+w |r |w |b |y |
+
+b |y |r |r |g |
+w |r |p |g |p |
+  |r |w |b |y |
+
+b |y |r |r |g |
+w |r |p |g |p |
+r |  |w |b |y |
+
+b |y |r |r |g |
+w |r |p |g |p |
+r |w |  |b |y |
+
+b |y |r |r |g |
+w |r |p |g |p |
+r |w |b |  |y |
+
+b |y |r |r |g |
+w |r |p |  |p |
+r |w |b |g |y |
+
+b |y |r |r |g |
+w |r |  |p |p |
+r |w |b |g |y |
+
+b |y |  |r |g |
+w |r |r |p |p |
+r |w |b |g |y |
+
+b |  |y |r |g |
+w |r |r |p |p |
+r |w |b |g |y |
+
+  |b |y |r |g |
+w |r |r |p |p |
+r |w |b |g |y |
+
+w |b |y |r |g |
+  |r |r |p |p |
+r |w |b |g |y |
+
+w |b |y |r |g |
+r |r |r |p |p |
+  |w |b |g |y |
+
+w |b |y |r |g |
+r |r |r |p |p |
+w |  |b |g |y |
+
+w |b |y |r |g |
+r |r |r |p |p |
+w |b |  |g |y |
+
+w |b |y |r |g |
+r |r |  |p |p |
+w |b |r |g |y |
+
+w |b |  |r |g |
+r |r |y |p |p |
+w |b |r |g |y |
+
+w |b |r |  |g |
+r |r |y |p |p |
+w |b |r |g |y |
+
+w |b |r |p |g |
+r |r |y |  |p |
+w |b |r |g |y |
+
+w |b |r |p |g |
+r |r |y |p |  |
+w |b |r |g |y |
+
+w |b |r |p |g |
+r |r |y |p |y |
+w |b |r |g |  |
+
+w |b |r |p |g |
+r |r |y |p |y |
+w |b |r |  |g |
+
+w |b |r |p |g |
+r |r |y |  |y |
+w |b |r |p |g |
+
+Visual trace for puzzle #34
+
+p |g |p |y |g |
+r |b |r |w |r |
+w |r |y |  |b |
+
+p |g |p |y |g |
+r |b |r |w |r |
+w |r |y |b |  |
+
+p |g |p |y |g |
+r |b |r |w |  |
+w |r |y |b |r |
+
+p |g |p |y |g |
+r |b |r |  |w |
+w |r |y |b |r |
+
+p |g |p |y |g |
+r |b |  |r |w |
+w |r |y |b |r |
+
+p |g |p |y |g |
+r |  |b |r |w |
+w |r |y |b |r |
+
+p |  |p |y |g |
+r |g |b |r |w |
+w |r |y |b |r |
+
+p |p |  |y |g |
+r |g |b |r |w |
+w |r |y |b |r |
+
+p |p |y |  |g |
+r |g |b |r |w |
+w |r |y |b |r |
+
+p |p |y |r |g |
+r |g |b |  |w |
+w |r |y |b |r |
+
+p |p |y |r |g |
+r |g |b |w |  |
+w |r |y |b |r |
+
+p |p |y |r |  |
+r |g |b |w |g |
+w |r |y |b |r |
+
+p |p |y |  |r |
+r |g |b |w |g |
+w |r |y |b |r |
+
+p |p |y |w |r |
+r |g |b |  |g |
+w |r |y |b |r |
+
+p |p |y |w |r |
+r |g |  |b |g |
+w |r |y |b |r |
+
+p |p |y |w |r |
+r |  |g |b |g |
+w |r |y |b |r |
+
+p |  |y |w |r |
+r |p |g |b |g |
+w |r |y |b |r |
+
+p |y |  |w |r |
+r |p |g |b |g |
+w |r |y |b |r |
+
+p |y |w |  |r |
+r |p |g |b |g |
+w |r |y |b |r |
+
+p |y |w |b |r |
+r |p |g |  |g |
+w |r |y |b |r |
+
+p |y |w |b |r |
+r |p |  |g |g |
+w |r |y |b |r |
+
+p |y |  |b |r |
+r |p |w |g |g |
+w |r |y |b |r |
+
+p |  |y |b |r |
+r |p |w |g |g |
+w |r |y |b |r |
+
+  |p |y |b |r |
+r |p |w |g |g |
+w |r |y |b |r |
+
+r |p |y |b |r |
+  |p |w |g |g |
+w |r |y |b |r |
+
+r |p |y |b |r |
+w |p |w |g |g |
+  |r |y |b |r |
+
+r |p |y |b |r |
+w |p |w |g |g |
+r |  |y |b |r |
+
+r |p |y |b |r |
+w |  |w |g |g |
+r |p |y |b |r |
+
+Visual trace for puzzle #35
+
+r |g |p |r |  |
+r |p |b |r |w |
+w |b |g |y |y |
+
+r |g |p |r |w |
+r |p |b |r |  |
+w |b |g |y |y |
+
+r |g |p |r |w |
+r |p |b |  |r |
+w |b |g |y |y |
+
+r |g |p |r |w |
+r |p |b |y |r |
+w |b |g |  |y |
+
+r |g |p |r |w |
+r |p |b |y |r |
+w |b |g |y |  |
+
+r |g |p |r |w |
+r |p |b |y |  |
+w |b |g |y |r |
+
+r |g |p |r |  |
+r |p |b |y |w |
+w |b |g |y |r |
+
+r |g |p |  |r |
+r |p |b |y |w |
+w |b |g |y |r |
+
+r |g |p |y |r |
+r |p |b |  |w |
+w |b |g |y |r |
+
+r |g |p |y |r |
+r |p |  |b |w |
+w |b |g |y |r |
+
+r |g |p |y |r |
+r |  |p |b |w |
+w |b |g |y |r |
+
+r |g |p |y |r |
+r |b |p |b |w |
+w |  |g |y |r |
+
+r |g |p |y |r |
+r |b |p |b |w |
+  |w |g |y |r |
+
+r |g |p |y |r |
+  |b |p |b |w |
+r |w |g |y |r |
+
+r |g |p |y |r |
+b |  |p |b |w |
+r |w |g |y |r |
+
+r |g |p |y |r |
+b |w |p |b |w |
+r |  |g |y |r |
+
+r |g |p |y |r |
+b |w |p |b |w |
+r |g |  |y |r |
+
+r |g |p |y |r |
+b |w |  |b |w |
+r |g |p |y |r |
+
+Visual trace for puzzle #36
+
+g |g |r |y |p |
+b |p |r |r |w |
+y |w |b |  |r |
+
+g |g |r |y |p |
+b |p |r |  |w |
+y |w |b |r |r |
+
+g |g |r |y |p |
+b |p |  |r |w |
+y |w |b |r |r |
+
+g |g |  |y |p |
+b |p |r |r |w |
+y |w |b |r |r |
+
+g |g |y |  |p |
+b |p |r |r |w |
+y |w |b |r |r |
+
+g |g |y |r |p |
+b |p |r |  |w |
+y |w |b |r |r |
+
+g |g |y |r |p |
+b |p |r |w |  |
+y |w |b |r |r |
+
+g |g |y |r |  |
+b |p |r |w |p |
+y |w |b |r |r |
+
+g |g |y |  |r |
+b |p |r |w |p |
+y |w |b |r |r |
+
+g |g |y |w |r |
+b |p |r |  |p |
+y |w |b |r |r |
+
+g |g |y |w |r |
+b |p |  |r |p |
+y |w |b |r |r |
+
+g |g |y |w |r |
+b |  |p |r |p |
+y |w |b |r |r |
+
+g |g |y |w |r |
+  |b |p |r |p |
+y |w |b |r |r |
+
+  |g |y |w |r |
+g |b |p |r |p |
+y |w |b |r |r |
+
+g |  |y |w |r |
+g |b |p |r |p |
+y |w |b |r |r |
+
+g |y |  |w |r |
+g |b |p |r |p |
+y |w |b |r |r |
+
+g |y |w |  |r |
+g |b |p |r |p |
+y |w |b |r |r |
+
+g |y |w |r |r |
+g |b |p |  |p |
+y |w |b |r |r |
+
+g |y |w |r |r |
+g |b |  |p |p |
+y |w |b |r |r |
+
+g |y |w |r |r |
+g |b |b |p |p |
+y |w |  |r |r |
+
+g |y |w |r |r |
+g |b |b |p |p |
+y |  |w |r |r |
+
+g |y |w |r |r |
+g |b |b |p |p |
+  |y |w |r |r |
+
+g |y |w |r |r |
+  |b |b |p |p |
+g |y |w |r |r |
+
+Visual trace for puzzle #37
+
+w |r |p |r |b |
+y |r |b |y |w |
+p |g |  |g |r |
+
+w |r |p |r |b |
+y |r |  |y |w |
+p |g |b |g |r |
+
+w |r |p |r |b |
+y |r |y |  |w |
+p |g |b |g |r |
+
+w |r |p |r |b |
+y |r |y |g |w |
+p |g |b |  |r |
+
+w |r |p |r |b |
+y |r |y |g |w |
+p |g |  |b |r |
+
+w |r |p |r |b |
+y |r |y |g |w |
+p |  |g |b |r |
+
+w |r |p |r |b |
+y |  |y |g |w |
+p |r |g |b |r |
+
+w |  |p |r |b |
+y |r |y |g |w |
+p |r |g |b |r |
+
+w |p |  |r |b |
+y |r |y |g |w |
+p |r |g |b |r |
+
+w |p |r |  |b |
+y |r |y |g |w |
+p |r |g |b |r |
+
+w |p |r |g |b |
+y |r |y |  |w |
+p |r |g |b |r |
+
+w |p |r |g |b |
+y |r |y |w |  |
+p |r |g |b |r |
+
+w |p |r |g |b |
+y |r |y |w |r |
+p |r |g |b |  |
+
+w |p |r |g |b |
+y |r |y |w |r |
+p |r |g |  |b |
+
+w |p |r |g |b |
+y |r |y |w |r |
+p |r |  |g |b |
+
+w |p |r |g |b |
+y |r |  |w |r |
+p |r |y |g |b |
+
+w |p |r |g |b |
+y |  |r |w |r |
+p |r |y |g |b |
+
+w |p |r |g |b |
+  |y |r |w |r |
+p |r |y |g |b |
+
+  |p |r |g |b |
+w |y |r |w |r |
+p |r |y |g |b |
+
+p |  |r |g |b |
+w |y |r |w |r |
+p |r |y |g |b |
+
+p |y |r |g |b |
+w |  |r |w |r |
+p |r |y |g |b |
+
+p |y |r |g |b |
+w |r |r |w |r |
+p |  |y |g |b |
+
+p |y |r |g |b |
+w |r |r |w |r |
+p |y |  |g |b |
+
+p |y |r |g |b |
+w |r |  |w |r |
+p |y |r |g |b |
+
+Visual trace for puzzle #38
+
+b |w |w |p |r |
+y |r |g |g |r |
+p |y |b |r |  |
+
+b |w |w |p |r |
+y |r |g |g |r |
+p |y |b |  |r |
+
+b |w |w |p |r |
+y |r |g |  |r |
+p |y |b |g |r |
+
+b |w |w |p |r |
+y |r |  |g |r |
+p |y |b |g |r |
+
+b |w |  |p |r |
+y |r |w |g |r |
+p |y |b |g |r |
+
+b |  |w |p |r |
+y |r |w |g |r |
+p |y |b |g |r |
+
+  |b |w |p |r |
+y |r |w |g |r |
+p |y |b |g |r |
+
+y |b |w |p |r |
+  |r |w |g |r |
+p |y |b |g |r |
+
+y |b |w |p |r |
+p |r |w |g |r |
+  |y |b |g |r |
+
+y |b |w |p |r |
+p |r |w |g |r |
+y |  |b |g |r |
+
+y |b |w |p |r |
+p |r |w |g |r |
+y |b |  |g |r |
+
+y |b |w |p |r |
+p |r |  |g |r |
+y |b |w |g |r |
+
+y |b |w |p |r |
+p |r |g |  |r |
+y |b |w |g |r |
+
+y |b |w |p |r |
+p |r |g |g |r |
+y |b |w |  |r |
+
+y |b |w |p |r |
+p |r |g |g |r |
+y |b |  |w |r |
+
+y |b |w |p |r |
+p |r |  |g |r |
+y |b |g |w |r |
+
+y |b |w |p |r |
+p |r |g |  |r |
+y |b |g |w |r |
+
+y |b |w |  |r |
+p |r |g |p |r |
+y |b |g |w |r |
+
+y |b |  |w |r |
+p |r |g |p |r |
+y |b |g |w |r |
+
+y |b |g |w |r |
+p |r |  |p |r |
+y |b |g |w |r |
+
+Visual trace for puzzle #39
+
+p |w |p |r |  |
+g |b |r |y |y |
+w |r |r |b |g |
+
+p |w |p |r |y |
+g |b |r |y |  |
+w |r |r |b |g |
+
+p |w |p |r |y |
+g |b |r |  |y |
+w |r |r |b |g |
+
+p |w |p |r |y |
+g |b |  |r |y |
+w |r |r |b |g |
+
+p |w |  |r |y |
+g |b |p |r |y |
+w |r |r |b |g |
+
+p |w |r |  |y |
+g |b |p |r |y |
+w |r |r |b |g |
+
+p |w |r |r |y |
+g |b |p |  |y |
+w |r |r |b |g |
+
+p |w |r |r |y |
+g |b |p |b |y |
+w |r |r |  |g |
+
+p |w |r |r |y |
+g |b |p |b |y |
+w |r |r |g |  |
+
+p |w |r |r |y |
+g |b |p |b |  |
+w |r |r |g |y |
+
+p |w |r |r |y |
+g |b |p |  |b |
+w |r |r |g |y |
+
+p |w |r |r |y |
+g |b |p |g |b |
+w |r |r |  |y |
+
+p |w |r |r |y |
+g |b |p |g |b |
+w |r |  |r |y |
+
+p |w |r |r |y |
+g |b |p |g |b |
+w |  |r |r |y |
+
+p |w |r |r |y |
+g |b |p |g |b |
+  |w |r |r |y |
+
+p |w |r |r |y |
+  |b |p |g |b |
+g |w |r |r |y |
+
+p |w |r |r |y |
+b |  |p |g |b |
+g |w |r |r |y |
+
+p |w |r |r |y |
+b |p |  |g |b |
+g |w |r |r |y |
+
+p |w |r |r |y |
+b |p |r |g |b |
+g |w |  |r |y |
+
+p |w |r |r |y |
+b |p |r |g |b |
+g |  |w |r |y |
+
+p |w |r |r |y |
+b |  |r |g |b |
+g |p |w |r |y |
+
+p |w |r |r |y |
+  |b |r |g |b |
+g |p |w |r |y |
+
+p |w |r |r |y |
+g |b |r |g |b |
+  |p |w |r |y |
+
+p |w |r |r |y |
+g |b |r |g |b |
+p |  |w |r |y |
+
+p |w |r |r |y |
+g |b |r |g |b |
+p |w |  |r |y |
+
+p |w |r |r |y |
+g |b |  |g |b |
+p |w |r |r |y |
+
+Visual trace for puzzle #40
+
+g |r |b |w |y |
+r |w |p |b |p |
+r |r |  |y |g |
+
+g |r |b |w |y |
+r |w |  |b |p |
+r |r |p |y |g |
+
+g |r |b |w |y |
+r |w |b |  |p |
+r |r |p |y |g |
+
+g |r |b |w |y |
+r |w |b |p |  |
+r |r |p |y |g |
+
+g |r |b |w |y |
+r |w |b |p |g |
+r |r |p |y |  |
+
+g |r |b |w |y |
+r |w |b |p |g |
+r |r |p |  |y |
+
+g |r |b |w |y |
+r |w |b |p |g |
+r |r |  |p |y |
+
+g |r |b |w |y |
+r |w |  |p |g |
+r |r |b |p |y |
+
+g |r |b |w |y |
+r |  |w |p |g |
+r |r |b |p |y |
+
+g |  |b |w |y |
+r |r |w |p |g |
+r |r |b |p |y |
+
+g |b |  |w |y |
+r |r |w |p |g |
+r |r |b |p |y |
+
+g |b |w |  |y |
+r |r |w |p |g |
+r |r |b |p |y |
+
+g |b |w |p |y |
+r |r |w |  |g |
+r |r |b |p |y |
+
+g |b |w |p |y |
+r |r |  |w |g |
+r |r |b |p |y |
+
+g |b |  |p |y |
+r |r |w |w |g |
+r |r |b |p |y |
+
+g |  |b |p |y |
+r |r |w |w |g |
+r |r |b |p |y |
+
+g |r |b |p |y |
+r |  |w |w |g |
+r |r |b |p |y |
+
+g |r |b |p |y |
+  |r |w |w |g |
+r |r |b |p |y |
+
+  |r |b |p |y |
+g |r |w |w |g |
+r |r |b |p |y |
+
+r |  |b |p |y |
+g |r |w |w |g |
+r |r |b |p |y |
+
+r |r |b |p |y |
+g |  |w |w |g |
+r |r |b |p |y |
+
+Visual trace for puzzle #41
+
+r |r |b |g |  |
+r |b |p |y |r |
+y |p |w |w |g |
+
+r |r |b |  |g |
+r |b |p |y |r |
+y |p |w |w |g |
+
+r |r |b |y |g |
+r |b |p |  |r |
+y |p |w |w |g |
+
+r |r |b |y |g |
+r |b |p |w |r |
+y |p |w |  |g |
+
+r |r |b |y |g |
+r |b |p |w |r |
+y |p |  |w |g |
+
+r |r |b |y |g |
+r |b |p |w |r |
+y |  |p |w |g |
+
+r |r |b |y |g |
+r |b |p |w |r |
+  |y |p |w |g |
+
+r |r |b |y |g |
+  |b |p |w |r |
+r |y |p |w |g |
+
+  |r |b |y |g |
+r |b |p |w |r |
+r |y |p |w |g |
+
+r |  |b |y |g |
+r |b |p |w |r |
+r |y |p |w |g |
+
+r |b |  |y |g |
+r |b |p |w |r |
+r |y |p |w |g |
+
+r |b |y |  |g |
+r |b |p |w |r |
+r |y |p |w |g |
+
+r |b |y |w |g |
+r |b |p |  |r |
+r |y |p |w |g |
+
+r |b |y |w |g |
+r |b |  |p |r |
+r |y |p |w |g |
+
+r |b |y |w |g |
+r |b |p |p |r |
+r |y |  |w |g |
+
+r |b |y |w |g |
+r |b |p |p |r |
+r |  |y |w |g |
+
+r |b |y |w |g |
+r |  |p |p |r |
+r |b |y |w |g |
+
+Visual trace for puzzle #42
+
+b |g |y |  |p |
+g |p |r |b |w |
+w |r |r |r |y |
+
+b |g |  |y |p |
+g |p |r |b |w |
+w |r |r |r |y |
+
+b |g |r |y |p |
+g |p |  |b |w |
+w |r |r |r |y |
+
+b |g |r |y |p |
+g |  |p |b |w |
+w |r |r |r |y |
+
+b |g |r |y |p |
+g |r |p |b |w |
+w |  |r |r |y |
+
+b |g |r |y |p |
+g |r |p |b |w |
+  |w |r |r |y |
+
+b |g |r |y |p |
+  |r |p |b |w |
+g |w |r |r |y |
+
+  |g |r |y |p |
+b |r |p |b |w |
+g |w |r |r |y |
+
+g |  |r |y |p |
+b |r |p |b |w |
+g |w |r |r |y |
+
+g |r |r |y |p |
+b |  |p |b |w |
+g |w |r |r |y |
+
+g |r |r |y |p |
+b |w |p |b |w |
+g |  |r |r |y |
+
+g |r |r |y |p |
+b |w |p |b |w |
+g |r |  |r |y |
+
+g |r |r |y |p |
+b |w |p |b |w |
+g |r |r |  |y |
+
+g |r |r |y |p |
+b |w |p |b |w |
+g |r |r |y |  |
+
+g |r |r |y |p |
+b |w |p |b |  |
+g |r |r |y |w |
+
+g |r |r |y |p |
+b |w |p |  |b |
+g |r |r |y |w |
+
+g |r |r |y |p |
+b |w |  |p |b |
+g |r |r |y |w |
+
+g |r |r |y |p |
+b |w |r |p |b |
+g |r |  |y |w |
+
+g |r |r |y |p |
+b |w |r |p |b |
+g |r |y |  |w |
+
+g |r |r |y |p |
+b |w |r |  |b |
+g |r |y |p |w |
+
+g |r |r |y |p |
+b |w |r |b |  |
+g |r |y |p |w |
+
+g |r |r |y |p |
+b |w |r |b |w |
+g |r |y |p |  |
+
+g |r |r |y |p |
+b |w |r |b |w |
+g |r |y |  |p |
+
+g |r |r |y |p |
+b |w |r |b |w |
+g |r |  |y |p |
+
+g |r |r |y |p |
+b |w |  |b |w |
+g |r |r |y |p |
+
+Visual trace for puzzle #43
+
+  |r |w |r |y |
+b |g |w |r |g |
+y |b |r |p |p |
+
+b |r |w |r |y |
+  |g |w |r |g |
+y |b |r |p |p |
+
+b |r |w |r |y |
+y |g |w |r |g |
+  |b |r |p |p |
+
+b |r |w |r |y |
+y |g |w |r |g |
+b |  |r |p |p |
+
+b |r |w |r |y |
+y |g |w |r |g |
+b |r |  |p |p |
+
+b |r |w |r |y |
+y |g |w |r |g |
+b |r |p |  |p |
+
+b |r |w |r |y |
+y |g |w |  |g |
+b |r |p |r |p |
+
+b |r |w |r |y |
+y |g |w |g |  |
+b |r |p |r |p |
+
+b |r |w |r |y |
+y |g |w |g |p |
+b |r |p |r |  |
+
+b |r |w |r |y |
+y |g |w |g |p |
+b |r |p |  |r |
+
+b |r |w |r |y |
+y |g |w |  |p |
+b |r |p |g |r |
+
+b |r |w |r |y |
+y |g |w |p |  |
+b |r |p |g |r |
+
+b |r |w |r |  |
+y |g |w |p |y |
+b |r |p |g |r |
+
+b |r |w |  |r |
+y |g |w |p |y |
+b |r |p |g |r |
+
+b |r |w |p |r |
+y |g |w |  |y |
+b |r |p |g |r |
+
+b |r |w |p |r |
+y |g |w |g |y |
+b |r |p |  |r |
+
+b |r |w |p |r |
+y |g |w |g |y |
+b |r |  |p |r |
+
+b |r |w |p |r |
+y |g |  |g |y |
+b |r |w |p |r |
+
+Visual trace for puzzle #44
+
+r |r |r |y |w |
+b |p |r |p |g |
+  |w |g |b |y |
+
+r |r |r |y |w |
+  |p |r |p |g |
+b |w |g |b |y |
+
+  |r |r |y |w |
+r |p |r |p |g |
+b |w |g |b |y |
+
+r |  |r |y |w |
+r |p |r |p |g |
+b |w |g |b |y |
+
+r |p |r |y |w |
+r |  |r |p |g |
+b |w |g |b |y |
+
+r |p |r |y |w |
+r |r |  |p |g |
+b |w |g |b |y |
+
+r |p |r |y |w |
+r |r |p |  |g |
+b |w |g |b |y |
+
+r |p |r |y |w |
+r |r |p |g |  |
+b |w |g |b |y |
+
+r |p |r |y |  |
+r |r |p |g |w |
+b |w |g |b |y |
+
+r |p |r |  |y |
+r |r |p |g |w |
+b |w |g |b |y |
+
+r |p |r |g |y |
+r |r |p |  |w |
+b |w |g |b |y |
+
+r |p |r |g |y |
+r |r |p |b |w |
+b |w |g |  |y |
+
+r |p |r |g |y |
+r |r |p |b |w |
+b |w |  |g |y |
+
+r |p |r |g |y |
+r |r |  |b |w |
+b |w |p |g |y |
+
+r |p |r |g |y |
+r |  |r |b |w |
+b |w |p |g |y |
+
+r |p |r |g |y |
+r |w |r |b |w |
+b |  |p |g |y |
+
+r |p |r |g |y |
+r |w |r |b |w |
+  |b |p |g |y |
+
+r |p |r |g |y |
+  |w |r |b |w |
+r |b |p |g |y |
+
+r |p |r |g |y |
+w |  |r |b |w |
+r |b |p |g |y |
+
+r |p |r |g |y |
+w |b |r |b |w |
+r |  |p |g |y |
+
+r |p |r |g |y |
+w |b |r |b |w |
+r |p |  |g |y |
+
+r |p |r |g |y |
+w |b |  |b |w |
+r |p |r |g |y |
+
+Visual trace for puzzle #45
+
+g |b |r |b |w |
+r |r |w |y |  |
+r |p |g |y |p |
+
+g |b |r |b |w |
+r |r |w |  |y |
+r |p |g |y |p |
+
+g |b |r |  |w |
+r |r |w |b |y |
+r |p |g |y |p |
+
+g |b |r |w |  |
+r |r |w |b |y |
+r |p |g |y |p |
+
+g |b |r |w |y |
+r |r |w |b |  |
+r |p |g |y |p |
+
+g |b |r |w |y |
+r |r |w |b |p |
+r |p |g |y |  |
+
+g |b |r |w |y |
+r |r |w |b |p |
+r |p |g |  |y |
+
+g |b |r |w |y |
+r |r |w |  |p |
+r |p |g |b |y |
+
+g |b |r |w |y |
+r |r |  |w |p |
+r |p |g |b |y |
+
+g |b |  |w |y |
+r |r |r |w |p |
+r |p |g |b |y |
+
+g |  |b |w |y |
+r |r |r |w |p |
+r |p |g |b |y |
+
+  |g |b |w |y |
+r |r |r |w |p |
+r |p |g |b |y |
+
+r |g |b |w |y |
+  |r |r |w |p |
+r |p |g |b |y |
+
+r |g |b |w |y |
+r |  |r |w |p |
+r |p |g |b |y |
+
+r |g |b |w |y |
+r |p |r |w |p |
+r |  |g |b |y |
+
+r |g |b |w |y |
+r |p |r |w |p |
+r |g |  |b |y |
+
+r |g |b |w |y |
+r |p |r |w |p |
+r |g |b |  |y |
+
+r |g |b |w |y |
+r |p |r |  |p |
+r |g |b |w |y |
+
+Visual trace for puzzle #46
+
+r |y |r |g |r |
+y |p |b |g |w |
+r |b |  |w |p |
+
+r |y |r |g |r |
+y |p |b |g |w |
+r |b |w |  |p |
+
+r |y |r |g |r |
+y |p |b |  |w |
+r |b |w |g |p |
+
+r |y |r |g |r |
+y |p |b |w |  |
+r |b |w |g |p |
+
+r |y |r |g |  |
+y |p |b |w |r |
+r |b |w |g |p |
+
+r |y |r |  |g |
+y |p |b |w |r |
+r |b |w |g |p |
+
+r |y |r |w |g |
+y |p |b |  |r |
+r |b |w |g |p |
+
+r |y |r |w |g |
+y |p |b |r |  |
+r |b |w |g |p |
+
+r |y |r |w |g |
+y |p |b |r |p |
+r |b |w |g |  |
+
+r |y |r |w |g |
+y |p |b |r |p |
+r |b |w |  |g |
+
+r |y |r |w |g |
+y |p |b |r |p |
+r |b |  |w |g |
+
+r |y |r |w |g |
+y |p |b |r |p |
+r |  |b |w |g |
+
+r |y |r |w |g |
+y |p |b |r |p |
+  |r |b |w |g |
+
+r |y |r |w |g |
+  |p |b |r |p |
+y |r |b |w |g |
+
+  |y |r |w |g |
+r |p |b |r |p |
+y |r |b |w |g |
+
+y |  |r |w |g |
+r |p |b |r |p |
+y |r |b |w |g |
+
+y |r |  |w |g |
+r |p |b |r |p |
+y |r |b |w |g |
+
+y |r |b |w |g |
+r |p |  |r |p |
+y |r |b |w |g |
+
+Visual trace for puzzle #47
+
+r |r |g |p |  |
+p |g |r |w |y |
+y |b |w |b |r |
+
+r |r |g |p |y |
+p |g |r |w |  |
+y |b |w |b |r |
+
+r |r |g |p |y |
+p |g |r |  |w |
+y |b |w |b |r |
+
+r |r |g |p |y |
+p |g |r |b |w |
+y |b |w |  |r |
+
+r |r |g |p |y |
+p |g |r |b |w |
+y |b |  |w |r |
+
+r |r |g |p |y |
+p |g |r |b |w |
+y |  |b |w |r |
+
+r |r |g |p |y |
+p |  |r |b |w |
+y |g |b |w |r |
+
+r |  |g |p |y |
+p |r |r |b |w |
+y |g |b |w |r |
+
+r |g |  |p |y |
+p |r |r |b |w |
+y |g |b |w |r |
+
+r |g |r |p |y |
+p |r |  |b |w |
+y |g |b |w |r |
+
+r |g |r |p |y |
+p |r |b |  |w |
+y |g |b |w |r |
+
+r |g |r |  |y |
+p |r |b |p |w |
+y |g |b |w |r |
+
+r |g |  |r |y |
+p |r |b |p |w |
+y |g |b |w |r |
+
+r |g |b |r |y |
+p |r |  |p |w |
+y |g |b |w |r |
+
+r |g |b |r |y |
+p |r |p |  |w |
+y |g |b |w |r |
+
+r |g |b |r |y |
+p |r |p |w |  |
+y |g |b |w |r |
+
+r |g |b |r |  |
+p |r |p |w |y |
+y |g |b |w |r |
+
+r |g |b |  |r |
+p |r |p |w |y |
+y |g |b |w |r |
+
+r |g |b |w |r |
+p |r |p |  |y |
+y |g |b |w |r |
+
+r |g |b |w |r |
+p |r |  |p |y |
+y |g |b |w |r |
+
+r |g |b |w |r |
+p |r |b |p |y |
+y |g |  |w |r |
+
+r |g |b |w |r |
+p |r |b |p |y |
+y |  |g |w |r |
+
+r |g |b |w |r |
+p |  |b |p |y |
+y |r |g |w |r |
+
+r |g |b |w |r |
+  |p |b |p |y |
+y |r |g |w |r |
+
+r |g |b |w |r |
+y |p |b |p |y |
+  |r |g |w |r |
+
+r |g |b |w |r |
+y |p |b |p |y |
+r |  |g |w |r |
+
+r |g |b |w |r |
+y |p |b |p |y |
+r |g |  |w |r |
+
+r |g |b |w |r |
+y |p |  |p |y |
+r |g |b |w |r |
+
+Visual trace for puzzle #48
+
+r |p |  |w |b |
+w |g |p |y |r |
+r |g |b |y |r |
+
+r |p |w |  |b |
+w |g |p |y |r |
+r |g |b |y |r |
+
+r |p |w |b |  |
+w |g |p |y |r |
+r |g |b |y |r |
+
+r |p |w |b |r |
+w |g |p |y |  |
+r |g |b |y |r |
+
+r |p |w |b |r |
+w |g |p |  |y |
+r |g |b |y |r |
+
+r |p |w |b |r |
+w |g |p |y |y |
+r |g |b |  |r |
+
+r |p |w |b |r |
+w |g |p |y |y |
+r |g |  |b |r |
+
+r |p |w |b |r |
+w |g |  |y |y |
+r |g |p |b |r |
+
+r |p |  |b |r |
+w |g |w |y |y |
+r |g |p |b |r |
+
+r |  |p |b |r |
+w |g |w |y |y |
+r |g |p |b |r |
+
+r |g |p |b |r |
+w |  |w |y |y |
+r |g |p |b |r |
+
+Visual trace for puzzle #49
+
+r |r |r |p |w |
+g |y |p |  |y |
+b |r |w |g |b |
+
+r |r |r |p |w |
+g |y |  |p |y |
+b |r |w |g |b |
+
+r |r |r |p |w |
+g |  |y |p |y |
+b |r |w |g |b |
+
+r |  |r |p |w |
+g |r |y |p |y |
+b |r |w |g |b |
+
+r |r |  |p |w |
+g |r |y |p |y |
+b |r |w |g |b |
+
+r |r |y |p |w |
+g |r |  |p |y |
+b |r |w |g |b |
+
+r |r |y |p |w |
+g |r |p |  |y |
+b |r |w |g |b |
+
+r |r |y |p |w |
+g |r |p |y |  |
+b |r |w |g |b |
+
+r |r |y |p |w |
+g |r |p |y |b |
+b |r |w |g |  |
+
+r |r |y |p |w |
+g |r |p |y |b |
+b |r |w |  |g |
+
+r |r |y |p |w |
+g |r |p |y |b |
+b |r |  |w |g |
+
+r |r |y |p |w |
+g |r |  |y |b |
+b |r |p |w |g |
+
+r |r |y |p |w |
+g |r |y |  |b |
+b |r |p |w |g |
+
+r |r |y |p |w |
+g |r |y |b |  |
+b |r |p |w |g |
+
+r |r |y |p |w |
+g |r |y |b |g |
+b |r |p |w |  |
+
+r |r |y |p |w |
+g |r |y |b |g |
+b |r |p |  |w |
+
+r |r |y |p |w |
+g |r |y |b |g |
+b |r |  |p |w |
+
+r |r |y |p |w |
+g |r |y |b |g |
+b |  |r |p |w |
+
+r |r |y |p |w |
+g |  |y |b |g |
+b |r |r |p |w |
+
+r |r |y |p |w |
+  |g |y |b |g |
+b |r |r |p |w |
+
+r |r |y |p |w |
+b |g |y |b |g |
+  |r |r |p |w |
+
+r |r |y |p |w |
+b |g |y |b |g |
+r |  |r |p |w |
+
+r |r |y |p |w |
+b |g |y |b |g |
+r |r |  |p |w |
+
+r |r |y |p |w |
+b |g |  |b |g |
+r |r |y |p |w |
+
+Visual trace for puzzle #50
+
+w |r |b |r |w |
+b |y |r |g |  |
+p |p |r |g |y |
+
+w |r |b |r |  |
+b |y |r |g |w |
+p |p |r |g |y |
+
+w |r |b |  |r |
+b |y |r |g |w |
+p |p |r |g |y |
+
+w |r |b |g |r |
+b |y |r |  |w |
+p |p |r |g |y |
+
+w |r |b |g |r |
+b |y |  |r |w |
+p |p |r |g |y |
+
+w |r |b |g |r |
+b |  |y |r |w |
+p |p |r |g |y |
+
+w |r |b |g |r |
+b |p |y |r |w |
+p |  |r |g |y |
+
+w |r |b |g |r |
+b |p |y |r |w |
+p |r |  |g |y |
+
+w |r |b |g |r |
+b |p |y |r |w |
+p |r |g |  |y |
+
+w |r |b |g |r |
+b |p |y |  |w |
+p |r |g |r |y |
+
+w |r |b |g |r |
+b |p |  |y |w |
+p |r |g |r |y |
+
+w |r |  |g |r |
+b |p |b |y |w |
+p |r |g |r |y |
+
+w |  |r |g |r |
+b |p |b |y |w |
+p |r |g |r |y |
+
+w |p |r |g |r |
+b |  |b |y |w |
+p |r |g |r |y |
+
+w |p |r |g |r |
+  |b |b |y |w |
+p |r |g |r |y |
+
+  |p |r |g |r |
+w |b |b |y |w |
+p |r |g |r |y |
+
+p |  |r |g |r |
+w |b |b |y |w |
+p |r |g |r |y |
+
+p |b |r |g |r |
+w |  |b |y |w |
+p |r |g |r |y |
+
+p |b |r |g |r |
+w |b |  |y |w |
+p |r |g |r |y |
+
+p |b |r |g |r |
+w |b |y |  |w |
+p |r |g |r |y |
+
+p |b |r |g |r |
+w |b |y |w |  |
+p |r |g |r |y |
+
+p |b |r |g |r |
+w |b |y |w |y |
+p |r |g |r |  |
+
+p |b |r |g |r |
+w |b |y |w |y |
+p |r |g |  |r |
+
+p |b |r |g |r |
+w |b |y |w |y |
+p |r |  |g |r |
+
+p |b |r |g |r |
+w |b |y |w |y |
+p |  |r |g |r |
+
+p |b |r |g |r |
+w |  |y |w |y |
+p |b |r |g |r |
+

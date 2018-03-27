@@ -1,0 +1,202 @@
+Solution for puzzle #1
+Moves made to solve: 7  8  3  2  7  8  9  4  3  8  7  6  11  10  5  6  7  12  11  10  5  6  11  12  7  
+This puzzle was solved in: 129ms.
+
+Solution for puzzle #2
+Moves made to solve: 3  2  1  6  11  12  13  8  9  14  13  8  7  12  11  10  5  6  7  12  11  6  5  10  11  12  7  
+This puzzle was solved in: 164ms.
+
+Solution for puzzle #3
+Moves made to solve: 8  13  12  11  6  7  8  3  2  7  8  9  4  3  2  1  6  7  8  13  12  7  
+This puzzle was solved in: 74ms.
+
+Solution for puzzle #4
+Moves made to solve: 8  7  6  1  0  5  10  11  12  7  6  1  2  3  8  7  12  13  8  9  14  13  12  7  
+This puzzle was solved in: 128ms.
+
+Solution for puzzle #5
+Moves made to solve: 7  8  9  4  3  8  13  14  9  8  7  6  5  0  1  2  7  12  11  6  7  12  13  8  
+This puzzle was solved in: 1829ms.
+
+Solution for puzzle #6
+Moves made to solve: 2  7  6  11  10  5  0  1  6  7  12  13  8  7  12  11  6  7  8  9  14  13  12  7  
+This puzzle was solved in: 763ms.
+
+Solution for puzzle #7
+Moves made to solve: 4  9  14  13  8  3  2  1  6  7  12  13  14  9  
+This puzzle was solved in: 36ms.
+
+Solution for puzzle #8
+Moves made to solve: 11  12  7  2  3  8  7  6  11  12  13  8  9  14  13  8  
+This puzzle was solved in: 2ms.
+
+Solution for puzzle #9
+Moves made to solve: 14  13  8  7  12  11  6  7  2  3  4  9  8  7  2  3  8  7  12  11  6  5  10  11  12  7  
+This puzzle was solved in: 304ms.
+
+Solution for puzzle #10
+Moves made to solve: 7  2  3  4  9  8  7  6  11  10  5  6  11  12  7  6  11  12  13  8  7  12  11  6  
+This puzzle was solved in: 18ms.
+
+Solution for puzzle #11
+Moves made to solve: 8  13  12  11  6  5  10  11  6  7  2  3  8  13  12  11  6  
+This puzzle was solved in: 30ms.
+
+Solution for puzzle #12
+Moves made to solve: 0  1  2  3  8  7  12  11  6  
+This puzzle was solved in: 1ms.
+
+Solution for puzzle #13
+Moves made to solve: 13  14  9  4  3  2  1  6  7  8  13  14  9  8  3  2  1  6  7  12  11  10  5  
+This puzzle was solved in: 160ms.
+
+Solution for puzzle #14
+Moves made to solve: 14  9  4  3  2  1  6  11  10  5  6  7  8  13  14  9  8  7  12  13  8  
+This puzzle was solved in: 12ms.
+
+Solution for puzzle #15
+Moves made to solve: 9  8  7  6  1  0  5  10  11  6  5  10  11  12  7  6  11  10  5  
+This puzzle was solved in: 2ms.
+
+Solution for puzzle #16
+Moves made to solve: 12  13  8  3  2  1  6  7  8  3  2  1  6  5  0  1  6  
+This puzzle was solved in: 6ms.
+
+Solution for puzzle #17
+Moves made to solve: 14  13  12  7  6  1  2  3  8  9  14  13  12  7  6  5  10  11  12  7  6  5  10  11  6  
+This puzzle was solved in: 1328ms.
+
+Solution for puzzle #18
+Moves made to solve: 2  7  12  13  8  7  6  1  0  5  10  11  12  13  14  9  8  13  12  7  
+This puzzle was solved in: 37ms.
+
+Solution for puzzle #19
+Moves made to solve: 8  7  12  11  6  5  10  11  6  7  8  13  12  11  6  7  12  13  8  
+This puzzle was solved in: 2ms.
+
+Solution for puzzle #20
+Moves made to solve: 5  10  11  12  13  8  3  2  1  6  5  0  1  6  7  8  9  14  13  12  7  
+This puzzle was solved in: 134ms.
+
+Solution for puzzle #21
+Moves made to solve: 9  4  3  8  9  4  3  2  1  6  7  12  13  8  7  12  11  6  
+This puzzle was solved in: 9ms.
+
+Solution for puzzle #22
+Moves made to solve: 3  8  9  4  3  2  7  6  11  10  5  0  1  6  11  12  7  8  9  14  13  8  
+This puzzle was solved in: 558ms.
+
+Solution for puzzle #23
+Moves made to solve: 13  12  11  6  7  2  3  4  9  8  7  2  3  4  9  8  7  6  5  0  1  2  7  
+This puzzle was solved in: 478ms.
+
+Solution for puzzle #24
+Moves made to solve: 4  9  14  13  12  11  6  7  2  1  6  7  8  9  14  13  12  7  
+This puzzle was solved in: 29ms.
+
+Solution for puzzle #25
+Moves made to solve: 5  0  1  6  7  2  1  6  11  10  5  6  11  12  13  8  7  12  11  6  
+This puzzle was solved in: 13ms.
+
+Solution for puzzle #26
+Moves made to solve: 14  9  4  3  2  7  6  11  12  7  6  5  10  11  6  
+This puzzle was solved in: 3ms.
+
+Solution for puzzle #27
+Moves made to solve: 2  7  6  1  2  3  8  7  6  5  10  11  12  13  14  9  8  13  12  7  
+This puzzle was solved in: 204ms.
+
+Solution for puzzle #28
+Moves made to solve: 5  6  7  8  9  4  3  8  9  14  13  12  11  10  5  6  11  12  7  
+This puzzle was solved in: 6ms.
+
+Solution for puzzle #29
+Moves made to solve: 9  14  13  8  3  2  7  8  13  12  11  6  7  8  13  12  7  6  11  12  13  8  
+This puzzle was solved in: 30ms.
+
+Solution for puzzle #30
+Moves made to solve: 12  11  6  5  0  1  2  7  8  9  4  3  2  7  12  11  6  5  10  11  12  7  
+This puzzle was solved in: 119ms.
+
+Solution for puzzle #31
+Moves made to solve: 9  14  13  8  7  2  3  8  9  4  3  2  7  6  1  0  5  6  7  8  13  12  7  6  11  12  13  8  
+This puzzle was solved in: 140ms.
+
+Solution for puzzle #32
+Moves made to solve: 5  6  1  2  7  8  13  12  7  
+This puzzle was solved in: 1ms.
+
+Solution for puzzle #33
+Moves made to solve: 10  11  12  13  8  7  2  1  0  5  10  11  12  7  2  3  8  9  14  13  8  
+This puzzle was solved in: 849ms.
+
+Solution for puzzle #34
+Moves made to solve: 14  9  8  7  6  1  2  3  8  9  4  3  8  7  6  1  2  3  8  7  2  1  0  5  10  11  6  
+This puzzle was solved in: 4109ms.
+
+Solution for puzzle #35
+Moves made to solve: 9  8  13  14  9  4  3  8  7  6  11  10  5  6  11  12  7  
+This puzzle was solved in: 3ms.
+
+Solution for puzzle #36
+Moves made to solve: 8  7  2  3  8  9  4  3  8  7  6  5  0  1  2  3  8  7  12  11  10  5  
+This puzzle was solved in: 490ms.
+
+Solution for puzzle #37
+Moves made to solve: 7  8  13  12  11  6  1  2  3  8  9  14  13  12  7  6  5  0  1  6  11  12  7  
+This puzzle was solved in: 990ms.
+
+Solution for puzzle #38
+Moves made to solve: 13  8  7  2  1  0  5  10  11  12  7  8  13  12  7  8  3  2  7  
+This puzzle was solved in: 192ms.
+
+Solution for puzzle #39
+Moves made to solve: 9  8  7  2  3  8  13  14  9  8  13  12  11  10  5  6  7  12  11  6  5  10  11  12  7  
+This puzzle was solved in: 160ms.
+
+Solution for puzzle #40
+Moves made to solve: 7  8  9  14  13  12  7  6  1  2  3  8  7  2  1  6  5  0  1  6  
+This puzzle was solved in: 15ms.
+
+Solution for puzzle #41
+Moves made to solve: 3  8  13  12  11  10  5  0  1  2  3  8  7  12  11  6  
+This puzzle was solved in: 1ms.
+
+Solution for puzzle #42
+Moves made to solve: 2  7  6  11  10  5  0  1  6  11  12  13  14  9  8  7  12  13  8  9  14  13  12  7  
+This puzzle was solved in: 60ms.
+
+Solution for puzzle #43
+Moves made to solve: 5  10  11  12  13  8  9  14  13  8  9  4  3  8  13  12  7  
+This puzzle was solved in: 11ms.
+
+Solution for puzzle #44
+Moves made to solve: 5  0  1  6  7  8  9  4  3  8  13  12  7  6  11  10  5  6  11  12  7  
+This puzzle was solved in: 34ms.
+
+Solution for puzzle #45
+Moves made to solve: 8  3  4  9  14  13  8  7  2  1  0  5  6  11  12  13  8  
+This puzzle was solved in: 4ms.
+
+Solution for puzzle #46
+Moves made to solve: 13  8  9  4  3  8  9  14  13  12  11  10  5  0  1  2  7  
+This puzzle was solved in: 20ms.
+
+Solution for puzzle #47
+Moves made to solve: 9  8  13  12  11  6  1  2  7  8  3  2  7  8  9  4  3  8  7  12  11  6  5  10  11  12  7  
+This puzzle was solved in: 2785ms.
+
+Solution for puzzle #48
+Moves made to solve: 3  4  9  8  13  12  7  2  1  6  
+This puzzle was solved in: 1ms.
+
+Solution for puzzle #49
+Moves made to solve: 7  6  1  2  7  8  9  14  13  12  7  8  9  14  13  12  11  6  5  10  11  12  7  
+This puzzle was solved in: 262ms.
+
+Solution for puzzle #50
+Moves made to solve: 4  3  8  7  6  11  12  13  8  7  2  1  6  5  0  1  6  7  8  9  14  13  12  11  6  
+This puzzle was solved in: 1815ms.
+
+All the puzzles were solved in 1024 moves!
+All the puzzles were solved in 18550 ms!

@@ -21,7 +21,7 @@ public class AAlgorithmSearch {
 	public List<PuzzleState> Start(ArrayList<char[]> puzzles) {
 		List<PuzzleState> listSolvedStates = new ArrayList<PuzzleState>();
 		for (char[] puzzle : puzzles) {
-			int heuristicValue = CalculateHeuristic(puzzle);
+			float heuristicValue = CalculateHeuristic(puzzle);
 			HeuristicComparator comparator = new HeuristicComparator();
 			PuzzleState state;
 
@@ -64,24 +64,28 @@ public class AAlgorithmSearch {
 	}
 
 
-	private int CalculateHeuristic(char[] puzzle) {
-		char[] puzzle1=puzzle.clone();
-		char[] puzzle2=puzzle.clone();
-		int heuristic1=0,heuristic2=0, manhattanDistanceTemp = 0;
-		int x,bottomRowIndex,topRowIndex;
-		for(int i= 0;i<5;i++)
+	private float CalculateHeuristic(char[] puzzle) {
+		char[] puzzle1 = puzzle.clone();
+		char[] puzzle2 = puzzle.clone();
+		float heuristic1 = 0, heuristic2 = 0, manhattanDistanceTemp = 0;
+		int x, bottomRowIndex, topRowIndex;
+		
+		for(int i= 0; i<5; i++)
 		{	
-			int manhattanDistancePoint=10, indexToRemove=i;
+			float manhattanDistancePoint = 10;
+			int indexToRemove = i;
 			if(puzzle1[i]!='x'){
 				for(int j=i+1;j<puzzle1.length;j++){
 					if(puzzle1[j]==puzzle1[i]){
-						x=(j%5)-(i%5);
-						bottomRowIndex=i+10;
-						manhattanDistanceTemp=Math.abs((j%5)-(bottomRowIndex%5))+Math.abs(((j-x)-bottomRowIndex)/5);
-						manhattanDistanceTemp+=manhattanDistanceTemp*0.3;//Added weight reduces search space grreatly but from testing gives same solution path than without it.
-						if(manhattanDistanceTemp<manhattanDistancePoint)
+						
+						x = (j%5) - (i%5);
+						bottomRowIndex= i + 10;
+						manhattanDistanceTemp = Math.abs((j % 5) - (bottomRowIndex % 5)) + Math.abs(((j - x) - bottomRowIndex) / 5);
+						manhattanDistanceTemp += manhattanDistanceTemp * 0.3;//Added weight reduces search space greatly but from testing gives same solution path than without it.
+						
+						if(manhattanDistanceTemp < manhattanDistancePoint)
 						{
-							manhattanDistancePoint=manhattanDistanceTemp;
+							manhattanDistancePoint = manhattanDistanceTemp;
 							indexToRemove=j;
 						}
 						
@@ -89,34 +93,38 @@ public class AAlgorithmSearch {
 					}
 				}
 			}
-			heuristic1+=manhattanDistancePoint;
-			puzzle1[indexToRemove]='x';
+			heuristic1 += manhattanDistancePoint;
+			puzzle1[indexToRemove] = 'x';
 		}
 		for(int i=14;i>9;i--)
 		{	
-			int manhattanDistancePoint=10, indexToRemove=i;
+			float manhattanDistancePoint = 10;
+			int indexToRemove = i;
 			if(puzzle2[i]!='x'){
-				for(int j=i-1;j>0;j--){
-					if(puzzle2[j]==puzzle2[i]){
+				for(int j= i-1; j>0; j--){
+					if(puzzle2[j] == puzzle2[i]){
+						
 						x=(j%5)-(i%5);
 						topRowIndex=i-10;
-						manhattanDistanceTemp=Math.abs((j%5)-(topRowIndex%5))+Math.abs(((j-x)-topRowIndex)/5);
-						manhattanDistanceTemp+=manhattanDistanceTemp*0.3;//Added weight reduces search space grreatly but from testing gives same solution path than without it.
-						if(manhattanDistanceTemp<manhattanDistancePoint)
+						manhattanDistanceTemp = Math.abs((j % 5) - (topRowIndex % 5)) + Math.abs(((j - x) - topRowIndex) / 5);
+						manhattanDistanceTemp += manhattanDistanceTemp * 0.3;//Added weight reduces search space greatly but from testing gives same solution path than without it.
+						
+						if(manhattanDistanceTemp < manhattanDistancePoint)
 						{
-							manhattanDistancePoint=manhattanDistanceTemp;
-							indexToRemove=j;
+							manhattanDistancePoint = manhattanDistanceTemp;
+							indexToRemove = j;
 						}
 						
 						//System.out.println("j: "+j+" i: "+i+"  ManDist: "+manhattanDistanceTemp);
 					}
 				}
 			}
-			heuristic2+=manhattanDistancePoint;
-			puzzle2[indexToRemove]='x';
+			
+			heuristic2 += manhattanDistancePoint;
+			puzzle2[indexToRemove] = 'x';
 		}
 
-		if(heuristic1<heuristic2)
+		if(heuristic1 < heuristic2)
 			return heuristic1;
 		else
 			return heuristic2;
@@ -187,26 +195,7 @@ public class AAlgorithmSearch {
 		
 		return true;
 	}
-	private boolean VerifyStateIsNotInOpenQueue(PuzzleState state, Queue<PuzzleState> openState) {
-		char[] statePuzzle = state.getPuzzle();
 
-		for (PuzzleState openPuzzleState : openState) {
-			char[] closedPuzzle = openPuzzleState.getPuzzle();
-			if (state.getHeuristicValue() == openPuzzleState.getHeuristicValue()) {
-				for (int i = 0; i < statePuzzle.length; i++) {
-					if (statePuzzle[i] != closedPuzzle[i]) {
-						break;
-					}
-
-					if (i == statePuzzle.length - 1) {
-						return false;
-					}
-				}
-			}
-		}
-		
-		return true;
-	}
 	private int findBlankSpace(char[] puzzle) {
 		int blank = 0;
 		for (int i = 0; i < 15; i++) {
