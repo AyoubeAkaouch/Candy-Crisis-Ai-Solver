@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class BestFirstSearch {
+public class AAlgorithmSearch {
 
-	public BestFirstSearch() {
+	public AAlgorithmSearch() {
 	}
 	/*
 	 * Steps: 1: Verify legal moves based on blank position 2: Generate State

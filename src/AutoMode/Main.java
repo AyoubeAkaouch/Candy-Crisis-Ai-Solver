@@ -18,7 +18,7 @@ public class Main {
 
 		ArrayList<char[]> puzzleSet = PuzzleReader.retrievePuzzles(path);
 		
-		BestFirstSearch automaticSearch = new BestFirstSearch();
+		AAlgorithmSearch automaticSearch = new AAlgorithmSearch();
 		solvedStates=automaticSearch.Start(puzzleSet);
 		FileOutput output= new FileOutput(solvedStates);
 		
