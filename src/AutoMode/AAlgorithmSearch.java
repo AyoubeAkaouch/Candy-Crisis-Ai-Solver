@@ -21,7 +21,7 @@ public class AAlgorithmSearch {
 	public List<PuzzleState> Start(ArrayList<char[]> puzzles) {
 		List<PuzzleState> listSolvedStates = new ArrayList<PuzzleState>();
 		for (char[] puzzle : puzzles) {
-			int heuristicValue = CalculateHeuristic(puzzle);
+			float heuristicValue = CalculateHeuristic(puzzle);
 			HeuristicComparator comparator = new HeuristicComparator();
 			PuzzleState state;
 
@@ -64,14 +64,15 @@ public class AAlgorithmSearch {
 	}
 
 
-	private int CalculateHeuristic(char[] puzzle) {
+	private float CalculateHeuristic(char[] puzzle) {
 		char[] puzzle1=puzzle.clone();
 		char[] puzzle2=puzzle.clone();
-		int heuristic1=0,heuristic2=0, manhattanDistanceTemp = 0;
+		float heuristic1=0,heuristic2=0, manhattanDistanceTemp = 0;
 		int x,bottomRowIndex,topRowIndex;
 		for(int i= 0;i<5;i++)
 		{	
-			int manhattanDistancePoint=10, indexToRemove=i;
+			float manhattanDistancePoint=4.5f;//10 best time shit heur
+			int indexToRemove=i;
 			if(puzzle1[i]!='x'){
 				for(int j=i+1;j<puzzle1.length;j++){
 					if(puzzle1[j]==puzzle1[i]){
@@ -94,8 +95,9 @@ public class AAlgorithmSearch {
 		}
 		for(int i=14;i>9;i--)
 		{	
-			int manhattanDistancePoint=10, indexToRemove=i;
-			if(puzzle2[i]!='x'){
+			float manhattanDistancePoint=4.5f;
+			int indexToRemove=i;
+			if(puzzle2[i]!='x'){//56 1024
 				for(int j=i-1;j>0;j--){
 					if(puzzle2[j]==puzzle2[i]){
 						x=(j%5)-(i%5);

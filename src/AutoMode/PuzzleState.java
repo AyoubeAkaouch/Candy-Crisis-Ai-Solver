@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PuzzleState {
 
-	public PuzzleState(char[] puzzle, int heuristicValue, PuzzleState parentState, int move)
+	public PuzzleState(char[] puzzle, float heuristicValue, PuzzleState parentState, int move)
 	{
 		this.puzzle = puzzle;
 		this.heuristicValue = heuristicValue;
@@ -17,7 +17,7 @@ public class PuzzleState {
 
 	private char[] puzzle;
 
-	private int heuristicValue;
+	private float heuristicValue;
 
 	private PuzzleState parentState;
 
@@ -25,7 +25,7 @@ public class PuzzleState {
 
 	private long time;
 	
-	private int cost;
+	private float cost;
 
 	public PuzzleState getParent()
 	{
@@ -65,17 +65,17 @@ public class PuzzleState {
 		if(this.parentState==null)
 			this.cost=0;
 		else
-			this.cost= parentState.costHeursiticTotal();
+			this.cost= (parentState.cost+1)*0.98f;//0.997: 346moves/263sec 0.99: 360moves/23.5sec !!!!!0.987f;
 	}
 
 	public void setTime(long time){
 		this.time=time;
 	}
 	
-	public int costHeursiticTotal(){
+	public float costHeursiticTotal(){
 		return cost+this.heuristicValue;
 	}
-	public int getCost()
+	public float getCost()
 	{
 		return cost;
 	}
@@ -90,7 +90,7 @@ public class PuzzleState {
 		this.puzzle = puzzle;
 	}
 
-	public int getHeuristicValue()
+	public float getHeuristicValue()
 	{
 		return heuristicValue;
 	}
