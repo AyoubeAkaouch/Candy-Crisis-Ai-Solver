@@ -79,7 +79,7 @@ public class AAlgorithmSearch {
 						x=(j%5)-(i%5);
 						bottomRowIndex=i+10;
 						manhattanDistanceTemp=Math.abs((j%5)-(bottomRowIndex%5))+Math.abs(((j-x)-bottomRowIndex)/5);
-						manhattanDistanceTemp+=manhattanDistanceTemp*0.3;//Added weight reduces search space grreatly but from testing gives same solution path than without it.
+						manhattanDistanceTemp+=manhattanDistanceTemp*0.27;//Added weight reduces search space grreatly but from testing gives same solution path than without it.
 						if(manhattanDistanceTemp<manhattanDistancePoint)
 						{
 							manhattanDistancePoint=manhattanDistanceTemp;
@@ -103,7 +103,7 @@ public class AAlgorithmSearch {
 						x=(j%5)-(i%5);
 						topRowIndex=i-10;
 						manhattanDistanceTemp=Math.abs((j%5)-(topRowIndex%5))+Math.abs(((j-x)-topRowIndex)/5);
-						manhattanDistanceTemp+=manhattanDistanceTemp*0.3;//Added weight reduces search space grreatly but from testing gives same solution path than without it.
+						manhattanDistanceTemp+=manhattanDistanceTemp*0.27;//Added weight reduces search space grreatly but from testing gives same solution path than without it.
 						if(manhattanDistanceTemp<manhattanDistancePoint)
 						{
 							manhattanDistancePoint=manhattanDistanceTemp;
