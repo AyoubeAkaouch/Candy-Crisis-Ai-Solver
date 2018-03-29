@@ -65,7 +65,7 @@ public class PuzzleState {
 		if(this.parentState==null)
 			this.cost=0;
 		else
-			this.cost= (parentState.cost+1)*0.983f;//0.997: 346moves/263sec 0.99: 360moves/23.5sec !!!!!0.987f;
+			this.cost= (parentState.cost+1)*0.983f;//The deeper it goes the more the cost weifght getts reduce (Looks more like a best-first)
 	}
 
 	public void setTime(long time){

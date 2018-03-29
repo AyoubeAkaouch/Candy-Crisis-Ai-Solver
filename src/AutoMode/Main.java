@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import CompProject472.PuzzleReader;
+import ManualMode.PuzzleReader;
 
 public class Main {
 

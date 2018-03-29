@@ -50,6 +50,8 @@ public class AAlgorithmSearch {
 			for (String validMove : validMoves) {
 				PuzzleState newState = CreateNewState(state, validMove, blankPosition);
 				if (VerifyStateIsNotInClosedQueue(newState, closedState)) {
+					// Not checking if it is in open list even if we should because it takes more time to check if it is 
+					//than produce its child again and check if those are in the closed list when the duplicate state has already been run once.
 					openState.add(newState);
 				}
 			}
@@ -58,20 +60,27 @@ public class AAlgorithmSearch {
 			closedState.add(state);
 		}
 
-		System.out.println(closedState.size());	
-		System.out.println(openState.size());	
+		System.out.println(closedState.size());//Prints how many state the algorithm has visited
 		return state;
 	}
 
 
 	private float CalculateHeuristic(char[] puzzle) {
+		//Heuristic is based on a changing goal state solution.
+		//Have a Manhattan distance threshold to give chance to other states that are deemed "useless" but may create a new goal state closer to the root.
+		//The further the tile is the more chance it will not make it to its goal position in ideal number of moves
+		//so we added a weight to show this probability and reduce the visited space.
+		//Not admissible heuristic to save on time when solving puzzles
+		//This is the hardest puzzle encountered and the reason why we did not keep heuristic admissible
+				//y r g b y w e p p w b g r r r !!
+		
 		char[] puzzle1=puzzle.clone();
 		char[] puzzle2=puzzle.clone();
 		float heuristic1=0,heuristic2=0, manhattanDistanceTemp = 0;
 		int x,bottomRowIndex,topRowIndex;
 		for(int i= 0;i<5;i++)
 		{	
-			float manhattanDistancePoint=4.5f;//10 best time shit heur
+			float manhattanDistancePoint=4.5f;//Manhattan distance threshold
 			int indexToRemove=i;
 			if(puzzle1[i]!='x'){
 				for(int j=i+1;j<puzzle1.length;j++){
