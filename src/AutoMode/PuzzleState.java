@@ -5,27 +5,27 @@ import java.util.List;
 
 public class PuzzleState {
 
-	public PuzzleState(String name, char[] puzzle, int heuristicValue, PuzzleState parentState, String move)
+	public PuzzleState(char[] puzzle, float heuristicValue, PuzzleState parentState, int move)
 	{
-		this.name = name;
 		this.puzzle = puzzle;
 		this.heuristicValue = heuristicValue;
 		this.parentState = parentState;
 		this.move=move;
-		this.time = System.currentTimeMillis();
+		this.time = 0;
+		setCost();
 	}
-
-	private String name;
 
 	private char[] puzzle;
 
-	private int heuristicValue;
+	private float heuristicValue;
 
 	private PuzzleState parentState;
 
-	private String move;
+	private int move;
 
 	private long time;
+	
+	private float cost;
 
 	public PuzzleState getParent()
 	{
@@ -36,15 +36,15 @@ public class PuzzleState {
 		return time;
 	}
 
-	public String getMove()
+	public int getMove()
 	{
 		return move;
 	}
 
 	//Will return list with last move at position 0, will have to iterate through 
 	//list in decreasing order to get it from first move to last.
-	public List<String> getPreviousMoves(List<String> allMoves){
-		if(this.getMove()==null)
+	public List<Integer> getPreviousMoves(List<Integer> allMoves){
+		if(this.getParent()==null)
 			return allMoves;
 		allMoves.add(this.getMove());
 		return parentState.getPreviousMoves(allMoves);
@@ -60,18 +60,26 @@ public class PuzzleState {
 		allStates.add(this);
 		return parentState.getPreviousStates(allStates);
 	}
-
-
-	public String getName()
-	{
-		return name;
+	
+	public void setCost(){
+		if(this.parentState==null)
+			this.cost=0;
+		else
+			this.cost= (parentState.cost+1)*0.983f;//The deeper it goes the more the cost weifght getts reduce (Looks more like a best-first)
 	}
 
-	public void setName(String name)
-	{
-		this.name = name;
+	public void setTime(long time){
+		this.time=time;
 	}
-
+	
+	public float costHeursiticTotal(){
+		return cost+this.heuristicValue;
+	}
+	public float getCost()
+	{
+		return cost;
+	}
+	
 	public char[] getPuzzle()
 	{
 		return puzzle;
@@ -82,7 +90,7 @@ public class PuzzleState {
 		this.puzzle = puzzle;
 	}
 
-	public int getHeuristicValue()
+	public float getHeuristicValue()
 	{
 		return heuristicValue;
 	}

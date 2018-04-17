@@ -1,4 +1,4 @@
-package CompProject472;
+package ManualMode;
 
 import java.util.Scanner;
 
